@@ -124,95 +124,12 @@ Whether your interests lie in microscopy data analysis, automated instrument con
 
 ---
 
-### Confirmed Speakers
-
-<div style="margin-top:1.5rem; margin-bottom:1.5rem;">
-<table style="width:100%; border-collapse:separate; border-spacing:0 12px;">
-  <thead style="display:none;"></thead>
-  <tbody>
-
-    <!-- Row Template Example -->
-    <tr style="background:#f8f8f8; border-radius:6px;">
-      <td style="padding:12px 16px; font-weight:600;">David Awschalom</td>
-      <td style="padding:12px 16px;">University of Chicago</td>
-      <td style="padding:12px 16px; font-style:italic;">Opening Keynote</td>
-    </tr>
-
-    <tr style="background:#f8f8f8;">
-      <td style="padding:12px 16px; font-weight:600;">Susanne Stemmer</td>
-      <td style="padding:12px 16px;">UC Santa Barbara</td>
-      <td style="padding:12px 16px; font-style:italic;">Topological Materials for Quantum Information Systems</td>
-    </tr>
-
-    <tr style="background:#f8f8f8;">
-      <td style="padding:12px 16px; font-weight:600;">Marko Lončar</td>
-      <td style="padding:12px 16px;">Harvard University</td>
-      <td style="padding:12px 16px; font-style:italic;">Quantum Optical Interconnects</td>
-    </tr>
-
-    <tr style="background:#f8f8f8;">
-      <td style="padding:12px 16px; font-weight:600;">Shashank Misra</td>
-      <td style="padding:12px 16px;">Sandia National Laboratories</td>
-      <td style="padding:12px 16px; font-style:italic;">Why Is Silicon Quantum Computing Taking So Long?</td>
-    </tr>
-
-    <tr style="background:#f8f8f8;">
-      <td style="padding:12px 16px; font-weight:600;">Greg Tikhomirov</td>
-      <td style="padding:12px 16px;">UC Berkeley</td>
-      <td style="padding:12px 16px; font-style:italic;">Democratizing Nanofabrication via Molecular Self-Assembly</td>
-    </tr>
-
-    <tr style="background:#f8f8f8;">
-      <td style="padding:12px 16px; font-weight:600;">Danna Freedman</td>
-      <td style="padding:12px 16px;">MIT</td>
-      <td style="padding:12px 16px; font-style:italic;">Molecular Color Centers</td>
-    </tr>
-
-    <tr style="background:#f8f8f8;">
-      <td style="padding:12px 16px; font-weight:600;">Xiuling Li</td>
-      <td style="padding:12px 16px;">UT Austin</td>
-      <td style="padding:12px 16px; font-style:italic;">Quantum Sensing with Spin Defects in III-Nitrides</td>
-    </tr>
-
-    <tr style="background:#f8f8f8;">
-      <td style="padding:12px 16px; font-weight:600;">Uli Wiesner</td>
-      <td style="padding:12px 16px;">Cornell University</td>
-      <td style="padding:12px 16px; font-style:italic;">Soft Matter Enabled Quantum Devices</td>
-    </tr>
-
-    <tr style="background:#f8f8f8;">
-      <td style="padding:12px 16px; font-weight:600;">John Randall</td>
-      <td style="padding:12px 16px;">Zyvex Labs</td>
-      <td style="padding:12px 16px; font-style:italic;">Atomic Precision Fabrication — A Top-Down Approach</td>
-    </tr>
-
-  </tbody>
-</table>
-</div>
-
----
-
-
-### DEMOCritus Roadmap
-<div style="margin-top:1.5rem;">
-  <img 
-      src="{{ '/assets/roadmap_2.png' | relative_url }}" 
-      alt="DEMOcritus Roadmap"
-      style="width:100%; max-width:1200px; border:1px solid #ccc; border-radius:6px; display:block; margin:auto;">
-</div>
-
 ---
 
 ### Participation
 
-This workshop is **invitation-only** to maintain focused discussion and actionable outcomes.  
-If you believe your research group or organization should be represented, please contact the organizers.
-
-**Workshop Chair:** Sergei V. Kalinin  
-**Contact:** *sergei2@utk.edu*
-
 <div style="text-align:center; font-size:0.9rem; opacity:0.7; margin-top:2rem;">
-More details and session structure will be posted as finalized.
+Stay tuned for the updates!
 </div>
 
 
