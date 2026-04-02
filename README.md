@@ -1,8 +1,6 @@
-# Atomic Fabrication Workshop
+# Summer School on ML for EM
 
 ## Registration
-
-**Individual**
 
 ## Schedule
 * TBA
