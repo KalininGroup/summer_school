@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DEMOCritus
+title: Summer School on ML for Electron Microscopy
 menu_title: Home
 menu_icon: house-door
 ---
