@@ -55,6 +55,7 @@ menu_icon: house-door
 </h1>
 
 Dates: TBA
+
 Hybrid format: online and at University of Tennessee, Knoxville, TN
 
 ---
