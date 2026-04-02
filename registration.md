@@ -1,12 +1,12 @@
 ---
-title: Event Registration
+title: Summer School Registration
 menu_title: Registration
 menu_icon: clipboard-check
 event_status:
  - open
 ---
 
-Please complete the form below to register for the **DEMOCritus Workshop**.
+Please complete the form below to register for the **Summer School on ML for EM**.
 
 <style>
   .reg-card {
