@@ -85,12 +85,10 @@ Whether your interests lie in microscopy data analysis, automated instrument con
         Sergei V. Kalinin
         <span class="socials">
           <a href="https://ae-spm.utk.edu/group-leader-pi" target="_blank" title="Website">
-            <!-- Globe icon -->
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20..."/></svg>
+          🌐
           </a>
-          <a href="https://github.com/SergeiVKalinin" target="_blank" title="GitHub">
-            <!-- GitHub icon -->
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0..."/></svg>
+          <a href="https://scholar.google.com/citations?user=kAI2T5EAAAAJ" target="_blank" title="Google Scholar">
+          📚
           </a>
         </span>
       </div>
@@ -106,11 +104,11 @@ Whether your interests lie in microscopy data analysis, automated instrument con
         Gerd Duscher
         <span class="socials">
           <a href="https://tickle.utk.edu/mse/faculty/gerd-duscher" target="_blank" title="Website">
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20..."/></svg>
+          🌐
           </a>
           <a href="https://github.com/gduscher" target="_blank" title="GitHub">
-            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0..."/></svg>
-          </a>
+          📚
+          </a>          
         </span>
       </div>
       <div class="affil">University of Tennessee, Knoxville</div>
