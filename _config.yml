@@ -1,6 +1,6 @@
-title: DEMOCritus
-nav_title: DEMOCritus
-tagline: DEterministic MOlecular & Atomic Construction for Quantum Devices
+title: Summer School on ML for Electron Microscopy
+nav_title: Summer School on ML for Electron Microscopy
+tagline: 
 
 
 event_date: TBA
@@ -13,8 +13,8 @@ mailbox_address:
 # description: |
 #   Conference workshop on Atomic Fabrication
 
-# url: "https://kaliningroup.github.io/Atomic-Fabrication-Workshop-2026/"
-# github_repo: kaliningroup
+url: "https://kaliningroup.github.io/summer_school/"
+github_repo: kaliningroup
 
 theme: minima
 
