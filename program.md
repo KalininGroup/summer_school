@@ -74,6 +74,8 @@ menu_icon: clock
 
 
 
+<table>
+
   <!-- ===================== DAY 1 ===================== -->
   <tr class="dayhdr">
     <td colspan="8"><strong>Day 1: Atomic Resolution STEM and Physics from Atomic Positions</strong></td>
