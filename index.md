@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Summer School on ML for Electron Microscopy
+title: Appalachian Regional Electron Microscopy Society Topical Conference
 menu_title: Home
 menu_icon: house-door
 ---
@@ -15,17 +15,18 @@ menu_icon: house-door
   /* Multi-color gradient that will animate */
   background: linear-gradient(
     90deg,
-    #2d2e32c3,
-    #0077ffc5,
-    #1f2025c3
-  );
+    #ff7a18c3,   /* warm orange */
+    #ffb347c5,   /* soft golden orange */
+    #ff7a18c3    /* warm orange again for symmetry */
+);
+
   background-size: 400% 100%; /* Needed for smooth sweeping effect */
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
   /* Combine color wave + soft vertical float motion */
-  animation: colorwave 35s linear infinite, floatwave 15s ease-in-out infinite;
+  animation: none; /*colorwave 35s linear infinite, floatwave 15s ease-in-out infinite; */
 }
 
 /* Left → Right color sweep */
@@ -50,63 +51,74 @@ menu_icon: house-door
 </style>
 
 <h1 class="animated-title">
-  DEterministic MOlecular & Atomic Construction for Quantum Devices
+  Summer School on ML for Electron Microscopy
 </h1>
 
----
-
-This **invitation-only workshop** will convene leading researchers across **materials science, nanofabrication, quantum information, and molecular systems**, together with key federal stakeholders (NSF, DoD, DOE).  
-The workshop will focus on identifying **strategic research opportunities** required to advance **atomically precise and molecularly programmable quantum device platforms**.
-
-A major output will be a collaboratively authored **Roadmap for Atomic Precision Quantum Technologies**, outlining:
-- Scientific challenges and emerging directions  
-- Experimental and computational capability gaps  
-- Infrastructure + workforce development needs  
-- Strategies for scalable hybrid quantum materials platforms
+Dates: TBA
+Hybrid format: online and at University of Tennessee, Knoxville, TN
 
 ---
 
-### 📽 Workshop Introductory Videos
+The Summer School will introduce participants to the core concepts of Machine Learning for Electron Microscopy, with a strong emphasis on the rapidly evolving landscape of automated and AI‑assisted experimentation. While foundational ML topics will be covered, the central focus of the program is on next‑generation autonomous microscopy workflows and their practical implementation.
 
-<div style="
-  display:flex;
-  gap:20px;
-  flex-wrap:wrap;
-  justify-content:center;
-  margin-top:1.5rem;
-">
+Participants will explore:
+- AI‑driven experimental workflows
+- Real‑time data analytics and adaptive decision‑making
+- Hands‑on automation and instrument control
+- Working with real microscopy data and digital twins
+- Implementation of autonomous microscopy
 
-  <!-- Video 1 Column -->
-  <div style="width:38%; min-width:260px; text-align:center;">
-    <div style="margin-bottom:8px; font-weight:bold; color:#0044cc;">
-      Controllable motion (Si adatom on graphene): in line
+Whether your interests lie in microscopy data analysis, automated instrument control, or AI‑enhanced materials discovery, this school offers a comprehensive introduction to the state‑of‑the‑art and a forward‑looking perspective on the future of ML‑enabled microscopy.
+
+---
+
+## 👥 Organizing Team
+
+<!-- Team Grid Wrapper -->
+<div class="team-grid">
+
+  <!-- Kalinin -->
+  <div class="team-card">
+    <img src="{{ '/assets/kalinin.png' | relative_url }}" alt="Sergei V. Kalinin">
+    <div class="team-meta">
+      <div class="name">
+        Sergei V. Kalinin
+        <span class="socials">
+          <a href="https://ae-spm.utk.edu/group-leader-pi" target="_blank" title="Website">
+            <!-- Globe icon -->
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20..."/></svg>
+          </a>
+          <a href="https://github.com/SergeiVKalinin" target="_blank" title="GitHub">
+            <!-- GitHub icon -->
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0..."/></svg>
+          </a>
+        </span>
+      </div>
+      <div class="affil">University of Tennessee, Knoxville; Pacific Northwest National Laboratory</div>
     </div>
-    <video autoplay muted loop playsinline
-           style="
-             width:100%;
-             border-radius:8px;
-             border:3px solid #ccc;
-           ">
-      <source src="{{ '/assets/moving-Si-1.mp4' | relative_url }}" type="video/mp4">
-    </video>
   </div>
 
-  <!-- Video 2 Column -->
-  <div style="width:38%; min-width:260px; text-align:center;">
-    <div style="margin-bottom:8px; font-weight:bold; color:#0044cc;">
-      Controllable motion (Si adatom on graphene): in circle
+  <!-- Duscher -->
+  <div class="team-card">
+    <img src="{{ '/assets/duscher.png' | relative_url }}" alt="Gerd Duscher">
+    <div class="team-meta">
+      <div class="name">
+        Gerd Duscher
+        <span class="socials">
+          <a href="https://tickle.utk.edu/mse/faculty/gerd-duscher" target="_blank" title="Website">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20..."/></svg>
+          </a>
+          <a href="https://github.com/gduscher" target="_blank" title="GitHub">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0..."/></svg>
+          </a>
+        </span>
+      </div>
+      <div class="affil">University of Tennessee, Knoxville</div>
     </div>
-    <video autoplay muted loop playsinline
-           style="
-             width:100%;
-             border-radius:8px;
-             border:3px solid #ccc;
-           ">
-      <source src="{{ '/assets/moving-Si-2.mp4' | relative_url }}" type="video/mp4">
-    </video>
   </div>
 
 </div>
+
 
 
 
