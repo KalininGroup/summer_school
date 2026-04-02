@@ -5,367 +5,364 @@ menu_icon: clock
 ---
 
 
-<style>
-  .agenda-grid {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 14px;
-    table-layout: fixed;
-  }
-
-  .agenda-grid td,
-  .agenda-grid th {
-    border: 1px solid #999;
-    padding: 6px 8px;
-    vertical-align: middle;
-    box-sizing: border-box;
-  }
-
-  /* Allow long titles to wrap correctly */
-  .agenda-grid td {
-    white-space: normal;
-    overflow-wrap: anywhere;
-    word-break: normal;
-  }
-
-
-  /* Keep time columns on one line */
-  .agenda-grid td:nth-child(1),
-  .agenda-grid td:nth-child(2) {
-    white-space: nowrap;
-  }
-
-  /* Header and row colors */
-  .dayhdr { background:#eee; font-weight:bold; }
-
-  .purple { background:#9b00ff; font-weight:bold; text-align:center; color:#000; }
-  .cyan { background:#00f0f0; font-weight:bold; }
-  .lightblue { background:#d6e4ff; }
-  .yellow { background:#f6e9b6; }
-  .softgray { background:#f5f5f5; }
-
-  /* Force color onto TDs (important for table-layout:fixed) */
-  .agenda-grid tr.cyan td { background:#00f0f0; }
-  .agenda-grid tr.yellow td { background:#f6e9b6; }
-  .agenda-grid tr.lightblue td { background:#d6e4ff; }
-  .agenda-grid tr.purple td { background:#9b00ff; color:#000; }
-  .agenda-grid tr.softgray td { background:#f5f5f5; }
-
-  .center { text-align:center; }
-
-  .green, .blue, .red {
-    color:#000;
-    font-weight:700;
-  }
-</style>
-
-<table class="agenda-grid">
-
-<colgroup>
-  <col style="width:10%">
-  <col style="width:10%">
-  <col style="width:15%">
-  <col style="width:15%">
-  <col style="width:15%">
-  <col style="width:15%">
-  <col style="width:10%">
-  <col style="width:10%">
-</colgroup>
-
-
-
-<table>
-
   <!-- ===================== DAY 1 ===================== -->
-  <tr class="dayhdr">
-    <td colspan="8"><strong>Day 1: Atomic Resolution STEM and Physics from Atomic Positions</strong></td>
-  </tr>
 
-  <tr>
-    <td>8:30 AM</td><td>9:00 AM</td>
-    <td colspan="6">
-      <strong>Welcome</strong>
-    </td>
-  </tr>
+<div class="day-header">Day 1: Atomic Resolution STEM and Physics from Atomic Positions</div>
 
-  <tr>
-    <td>9:00 AM</td><td>10:00 AM</td>
-    <td colspan="6"><strong>Principles of Electron Optics and Aberration Correction in STEM (Duscher)</td>
-  </tr>
+<div class="schedule-day">
 
-  <tr>
-    <td>10:00 AM</td><td>10:50 AM</td>
-    <td colspan="6"><strong>Remote Aberration Correction in STEM (Duscher, Houston assist)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>8:30 AM</div>
+    <div>9:00 AM</div>
+    <div class="schedule-title">Welcome</div>
+  </div>
 
-  <tr class="softgray">
-    <td>10:50 AM</td><td>11:00 AM</td>
-    <td colspan="6">Coffee Break</td>
-  </tr>
+  <div class="schedule-row">
+    <div>9:00 AM</div>
+    <div>10:00 AM</div>
+    <div class="schedule-title">Principles of Electron Optics and Aberration Correction in STEM — <span class="schedule-instructor">Duscher</span></div>
+  </div>
 
-  <tr>
-    <td>11:10 AM</td><td>12:00 AM</td>
-    <td colspan="6"><strong>Simulation of Ronchigrams [Participant computer] (Duscher)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>10:00 AM</div>
+    <div>10:50 AM</div>
+    <div class="schedule-title">Remote Aberration Correction in STEM — <span class="schedule-instructor">Duscher, Houston</span></div>
+  </div>
 
-  <tr>
-    <td>12:00 AM</td><td>1:00 PM</td>
-    <td colspan="6"><strong>Lunch (provided for registered onsite participants)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>10:50 AM</div>
+    <div>11:00 AM</div>
+    <div class="schedule-title">Coffee Break</div>
+  </div>
 
-  <tr>
-    <td>1:00 PM</td><td>2:00 PM</td>
-    <td colspan="6"><strong>Remote Atomic Resolution Imaging (Duscher, Houston assist)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>11:10 AM</div>
+    <div>12:00 PM</div>
+    <div class="schedule-title">Simulation of Ronchigrams [Participant computer] — <span class="schedule-instructor">Duscher</span></div>
+  </div>
 
-  <tr>
-    <td>2:00 PM</td><td>2:50 PM</td>
-    <td colspan="6"><strong>Methods of Atom Position determination [Participant computer] (Barakati)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>12:00 AM</div>
+    <div>1:00 PM</div>
+    <div class="schedule-title">Lunch (provided for registered onsite participants)</div>
+  </div>
 
-  <tr class="softgray">
-    <td>2:50 PM</td><td>3:10 PM</td>
-    <td colspan="6">Coffee Break</td>
-  </tr>
+  <div class="schedule-row">
+    <div>1:00 PM</div>
+    <div>2:00 PM</div>
+    <div class="schedule-title">Remote Atomic Resolution Imaging — <span class="schedule-instructor">Duscher, Houston</span></div>
+  </div>
 
-  <tr>
-    <td>3:10 PM</td><td>4:00 PM</td>
-    <td colspan="6"><strong>First Machine Learning Algorithms for Atomically Resolved Images (Houston)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>2:00 PM</div>
+    <div>2:50 PM</div>
+    <div class="schedule-title">Methods of Atom Position determination [Participant computer] — <span class="schedule-instructor">Barakati</span></div>
+  </div>
 
-  <tr>
-    <td>4:00 PM</td><td>5:00 PM</td>
-    <td colspan="6"><strong>Guest lecture</td>
-  </tr>
+  <div class="schedule-row">
+    <div>2:50 PM</div>
+    <div>3:10 PM</div>
+    <div class="schedule-title">Coffee Break</div>
+  </div>
+
+  <div class="schedule-row">
+    <div>3:10 PM</div>
+    <div>4:00 PM</div>
+    <div class="schedule-title">First Machine Learning Algorithms for Atomically Resolved Images — <span class="schedule-instructor">Houston</span></div>
+  </div>
+
+  <div class="schedule-row">
+    <div>4:00 PM</div>
+    <div>5:00 PM</div>
+    <div class="schedule-title">Guest lecture</div>
+  </div>
+
+</div>
+
 
   <!-- ===================== DAY 2 ===================== -->
-   <tr class="dayhdr">
-    <td colspan="8"><strong>Day 2: Electron Diffraction and 4D-STEM</strong></td>
-  </tr>
 
-  <tr>
-    <td>9:00 AM</td><td>10:00 AM</td>
-    <td colspan="6"><strong>Introduction to Diffraction (Duscher)</td>
-  </tr>
+<div class="day-header">Day 2: Electron Diffraction and 4D‑STEM</div>
 
-  <tr>
-    <td>10:00 AM</td><td>10:50 AM</td>
-    <td colspan="6"><strong>Remote Diffraction Acquisition in STEM (Duscher, Houston)</td>
-  </tr>
+<div class="schedule-day">
 
-  <tr class="softgray">
-    <td>10:50 AM</td><td>11:00 AM</td>
-    <td colspan="6">Coffee Break</td>
-  </tr>
+  <div class="schedule-row">
+    <div>9:00 AM</div>
+    <div>10:00 AM</div>
+    <div class="schedule-title">Introduction to Diffraction — <span class="schedule-instructor">Duscher</span></div>
+  </div>
 
-  <tr>
-    <td>11:10 AM</td><td>12:00 AM</td>
-    <td colspan="6"><strong>Simulation of Diffraction Pattern (Duscher)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>10:00 AM</div>
+    <div>10:50 AM</div>
+    <div class="schedule-title">Remote Diffraction Acquisition in STEM — <span class="schedule-instructor">Duscher, Houston</span></div>
+  </div>
 
-  <tr>
-    <td>12:00 AM</td><td>1:00 PM</td>
-    <td colspan="6"><strong>Lunch (provided for registered onsite participants)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>10:50 AM</div>
+    <div>11:00 AM</div>
+    <div class="schedule-title">Coffee Break</div>
+  </div>
 
-  <tr>
-    <td>1:00 PM</td><td>2:00 PM</td>
-    <td colspan="6"><strong>Analyzing Diffraction pattern [Participant computer] (Duscher, Houston)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>11:10 AM</div>
+    <div>12:00 PM</div>
+    <div class="schedule-title">Simulation of Diffraction Pattern — <span class="schedule-instructor">Duscher</span></div>
+  </div>
 
-  <tr>
-    <td>2:00 PM</td><td>2:50 PM</td>
-    <td colspan="6"><strong>Clustering Algorithms for 1 and 2D datasets (Barakati)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>12:00 PM</div>
+    <div>1:00 PM</div>
+    <div class="schedule-title">Lunch (provided for registered onsite participants)</div>
+  </div>
 
-  <tr class="softgray">
-    <td>2:50 PM</td><td>3:10 PM</td>
-    <td colspan="6">Coffee Break</td>
-  </tr>
+  <div class="schedule-row">
+    <div>1:00 PM</div>
+    <div>2:00 PM</div>
+    <div class="schedule-title">Analyzing Diffraction Pattern [Participant computer] — <span class="schedule-instructor">Duscher, Houston</span></div>
+  </div>
 
-  <tr>
-    <td>3:10 PM</td><td>4:00 PM</td>
-    <td colspan="6"><strong>Conventional and Smart Acquisition of 4D STEM (Houston)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>2:00 PM</div>
+    <div>2:50 PM</div>
+    <div class="schedule-title">Clustering Algorithms for 1D and 2D Datasets — <span class="schedule-instructor">Barakati</span></div>
+  </div>
 
-  <tr>
-    <td>4:00 PM</td><td>5:00 PM</td>
-    <td colspan="6"><strong>Processing of 4D Datasets [Participant computer] (Houston)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>2:50 PM</div>
+    <div>3:10 PM</div>
+    <div class="schedule-title">Coffee Break</div>
+  </div>
+
+  <div class="schedule-row">
+    <div>3:10 PM</div>
+    <div>4:00 PM</div>
+    <div class="schedule-title">Conventional and Smart Acquisition of 4D STEM — <span class="schedule-instructor">Houston</span></div>
+  </div>
+
+  <div class="schedule-row">
+    <div>4:00 PM</div>
+    <div>5:00 PM</div>
+    <div class="schedule-title">Processing of 4D Datasets [Participant computer] — <span class="schedule-instructor">Houston</span></div>
+  </div>
+
+</div>
+  
   
   <!-- ===================== DAY 3 ===================== -->
-   <tr class="dayhdr">
-    <td colspan="8"><strong>Day3: Remote and Conventional Acquisition of Spectroscopic Data and ML-enabled analysis</strong></td>
-  </tr>
 
-  <tr>
-    <td>9:00 AM</td><td>10:00 AM</td>
-    <td colspan="6"><strong>Introduction to Spectroscopy (Duscher)</td>
-  </tr>
+<div class="day-header">Day 3: Spectroscopic Data & ML‑Enabled Analysis</div>
 
-  <tr>
-    <td>10:00 AM</td><td>10:50 AM</td>
-    <td colspan="6"><strong>Remote Acquisition of EDS spectra in STEM (Duscher, Houston)</td>
-  </tr>
+<div class="schedule-day">
 
-  <tr class="softgray">
-    <td>10:50 AM</td><td>11:00 AM</td>
-    <td colspan="6">Coffee Break</td>
-  </tr>
+  <div class="schedule-row">
+    <div>9:00 AM</div>
+    <div>10:00 AM</div>
+    <div class="schedule-title">Introduction to Spectroscopy — <span class="schedule-instructor">Duscher</span></div>
+  </div>
 
-  <tr>
-    <td>11:10 AM</td><td>12:00 AM</td>
-    <td colspan="6"><strong>Analysis of EDS [Participant computer] (Duscher)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>10:00 AM</div>
+    <div>10:50 AM</div>
+    <div class="schedule-title">Remote Acquisition of EDS Spectra — <span class="schedule-instructor">Duscher, Houston</span></div>
+  </div>
 
-  <tr>
-    <td>12:00 AM</td><td>1:00 PM</td>
-    <td colspan="6"><strong>Lunch (provided for registered onsite participants)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>10:50 AM</div>
+    <div>11:00 AM</div>
+    <div class="schedule-title">Coffee Break</div>
+  </div>
 
-  <tr>
-    <td>1:00 PM</td><td>2:00 PM</td>
-    <td colspan="6"><strong>Remote and Smart Acquisition of spectra in STEM (Duscher, Houston)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>11:10 AM</div>
+    <div>12:00 PM</div>
+    <div class="schedule-title">Analysis of EDS [Participant computer] — <span class="schedule-instructor">Duscher</span></div>
+  </div>
 
-  <tr>
-    <td>2:00 PM</td><td>2:50 PM</td>
-    <td colspan="6"><strong>Conventional Analysis of EELS [Participant computer] (Duscher)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>12:00 PM</div>
+    <div>1:00 PM</div>
+    <div class="schedule-title">Lunch (provided for registered onsite participants)</div>
+  </div>
 
-  <tr class="softgray">
-    <td>2:50 PM</td><td>3:10 PM</td>
-    <td colspan="6">Coffee Break</td>
-  </tr>
+  <div class="schedule-row">
+    <div>1:00 PM</div>
+    <div>2:00 PM</div>
+    <div class="schedule-title">Remote & Smart Acquisition of Spectra — <span class="schedule-instructor">Duscher, Houston</span></div>
+  </div>
 
-  <tr>
-    <td>3:10 PM</td><td>4:00 PM</td>
-    <td colspan="6"><strong>Machine Learning of Spectroscopic Datasets (Kalinin)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>2:00 PM</div>
+    <div>2:50 PM</div>
+    <div class="schedule-title">Conventional Analysis of EELS [Participant computer] — <span class="schedule-instructor">Duscher</span></div>
+  </div>
 
-  <tr>
-    <td>4:00 PM</td><td>5:00 PM</td>
-    <td colspan="6"><strong>ML-enhanced Analysis of EELS [Participant computer] (Kalinin)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>2:50 PM</div>
+    <div>3:10 PM</div>
+    <div class="schedule-title">Coffee Break</div>
+  </div>
+
+  <div class="schedule-row">
+    <div>3:10 PM</div>
+    <div>4:00 PM</div>
+    <div class="schedule-title">Machine Learning of Spectroscopic Datasets — <span class="schedule-instructor">Kalinin</span></div>
+  </div>
+
+  <div class="schedule-row">
+    <div>4:00 PM</div>
+    <div>5:00 PM</div>
+    <div class="schedule-title">ML‑Enhanced Analysis of EELS [Participant computer] — <span class="schedule-instructor">Kalinin</span></div>
+  </div>
+
+</div>
+
 
    <!-- ===================== DAY 4 ===================== -->
-   <tr class="dayhdr">
-    <td colspan="8"><strong>Day3: ML for STEM: from post-acquisition to real time analytics</strong></td>
-  </tr>
 
-  <tr>
-    <td>9:00 AM</td><td>10:00 AM</td>
-    <td colspan="6"><strong>Introduction to Workflows in Machine Learning (Kalinin)</td>
-  </tr>
+<div class="day-header">Day 4: ML for STEM: From Post‑Acquisition to Real‑Time Analytics</div>
 
-  <tr>
-    <td>10:00 AM</td><td>10:50 AM</td>
-    <td colspan="6"><strong>Guest lecture</td>
-  </tr>
+<div class="schedule-day">
 
-  <tr class="softgray">
-    <td>10:50 AM</td><td>11:00 AM</td>
-    <td colspan="6">Coffee Break</td>
-  </tr>
+  <div class="schedule-row">
+    <div>9:00 AM</div>
+    <div>10:00 AM</div>
+    <div class="schedule-title">Introduction to Workflows in Machine Learning — <span class="schedule-instructor">Kalinin</span></div>
+  </div>
 
-  <tr>
-    <td>11:10 AM</td><td>12:00 AM</td>
-    <td colspan="6"><strong>Neural Networks for Images II [Participant computer] (Pratiush)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>10:00 AM</div>
+    <div>10:50 AM</div>
+    <div class="schedule-title">Guest lecture</div>
+  </div>
 
-  <tr>
-    <td>12:00 AM</td><td>1:00 PM</td>
-    <td colspan="6"><strong>Lunch (provided for registered onsite participants)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>10:50 AM</div>
+    <div>11:00 AM</div>
+    <div class="schedule-title">Coffee Break</div>
+  </div>
 
-  <tr>
-    <td>1:00 PM</td><td>2:00 PM</td>
-    <td colspan="6"><strong>VAE for Image Analysis (Kalinin)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>11:10 AM</div>
+    <div>12:00 PM</div>
+    <div class="schedule-title">Neural Networks for Images II [Participant computer] — <span class="schedule-instructor">Pratiush</span></div>
+  </div>
 
-  <tr>
-    <td>2:00 PM</td><td>2:50 PM</td>
-    <td colspan="6"><strong>Guest lecture</td>
-  </tr>
+  <div class="schedule-row">
+    <div>12:00 PM</div>
+    <div>1:00 PM</div>
+    <div class="schedule-title">Lunch (provided for registered onsite participants)</div>
+  </div>
 
-  <tr class="softgray">
-    <td>2:50 PM</td><td>3:10 PM</td>
-    <td colspan="6">Coffee Break</td>
-  </tr>
+  <div class="schedule-row">
+    <div>1:00 PM</div>
+    <div>2:00 PM</div>
+    <div class="schedule-title">VAE for Image Analysis — <span class="schedule-instructor">Kalinin</span></div>
+  </div>
 
-  <tr>
-    <td>3:10 PM</td><td>4:00 PM</td>
-    <td colspan="6"><strong>Guest lecture</td>
-  </tr>
+  <div class="schedule-row">
+    <div>2:00 PM</div>
+    <div>2:50 PM</div>
+    <div class="schedule-title">Guest lecture</div>
+  </div>
 
-  <tr>
-    <td>4:00 PM</td><td>4:30 PM</td>
-    <td colspan="6"><strong>Guest lecture</td>
-  </tr>
+  <div class="schedule-row">
+    <div>2:50 PM</div>
+    <div>3:10 PM</div>
+    <div class="schedule-title">Coffee Break</div>
+  </div>
 
-  <tr>
-    <td>4:30 PM</td><td>5:00 PM</td>
-    <td colspan="6"><strong>Guest lecture</td>
-  </tr>
+  <div class="schedule-row">
+    <div>3:10 PM</div>
+    <div>4:00 PM</div>
+    <div class="schedule-title">Guest lecture</div>
+  </div>
+
+  <div class="schedule-row">
+    <div>4:00 PM</div>
+    <div>4:30 PM</div>
+    <div class="schedule-title">Guest lecture</div>
+  </div>
+
+  <div class="schedule-row">
+    <div>4:30 PM</div>
+    <div>5:00 PM</div>
+    <div class="schedule-title">Guest lecture</div>
+  </div>
+
+</div>   
+  
 
    <!-- ===================== DAY 5 ===================== -->
-   <tr class="dayhdr">
-    <td colspan="8"><strong>Day3: Decision making in electron microscopy and human-in the loop automated experiment (hAE)</strong></td>
-  </tr>
 
-  <tr>
-    <td>9:00 AM</td><td>10:00 AM</td>
-    <td colspan="6"><strong>Decision Making in Microscopy (Kalinin)</td>
-  </tr>
+<div class="day-header">Day 5: Decision‑Making & Human‑in‑the‑Loop Automated Experiment (hAE)</div>
 
-  <tr>
-    <td>10:00 AM</td><td>10:50 AM</td>
-    <td colspan="6"><strong>Reward Functions for Decision Making (Barakati)</td>
-  </tr>
+<div class="schedule-day">
 
-  <tr class="softgray">
-    <td>10:50 AM</td><td>11:00 AM</td>
-    <td colspan="6">Coffee Break</td>
-  </tr>
+  <div class="schedule-row">
+    <div>9:00 AM</div>
+    <div>10:00 AM</div>
+    <div class="schedule-title">Decision Making in Microscopy — <span class="schedule-instructor">Kalinin</span></div>
+  </div>
 
-  <tr>
-    <td>11:10 AM</td><td>12:00 AM</td>
-    <td colspan="6"><strong>Principles of Gaussian Processes and Bayesian Optimization (Kalinin)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>10:00 AM</div>
+    <div>10:50 AM</div>
+    <div class="schedule-title">Reward Functions for Decision Making — <span class="schedule-instructor">Barakati</span></div>
+  </div>
 
-  <tr>
-    <td>12:00 AM</td><td>1:00 PM</td>
-    <td colspan="6"><strong>Lunch (provided for registered onsite participants)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>10:50 AM</div>
+    <div>11:00 AM</div>
+    <div class="schedule-title">Coffee Break</div>
+  </div>
 
-  <tr>
-    <td>1:00 PM</td><td>2:00 PM</td>
-    <td colspan="6"><strong>Deep Kernel Neural Learning and hAE (Kalinin)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>11:10 AM</div>
+    <div>12:00 PM</div>
+    <div class="schedule-title">Gaussian Processes & Bayesian Optimization — <span class="schedule-instructor">Kalinin</span></div>
+  </div>
 
-  <tr>
-    <td>2:00 PM</td><td>2:50 PM</td>
-    <td colspan="6"><strong>New opportunities enabled by remote ML-controlled acquisition (Utkarsh)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>12:00 PM</div>
+    <div>1:00 PM</div>
+    <div class="schedule-title">Lunch (provided for registered onsite participants)</div>
+  </div>
 
-  <tr class="softgray">
-    <td>2:50 PM</td><td>3:10 PM</td>
-    <td colspan="6">Coffee Break</td>
-  </tr>
+  <div class="schedule-row">
+    <div>1:00 PM</div>
+    <div>2:00 PM</div>
+    <div class="schedule-title">Deep Kernel Neural Learning & hAE — <span class="schedule-instructor">Kalinin</span></div>
+  </div>
 
-  <tr>
-    <td>3:10 PM</td><td>4:00 PM</td>
-    <td colspan="6"><strong>Guest lecture</td>
-  </tr>
+  <div class="schedule-row">
+    <div>2:00 PM</div>
+    <div>2:50 PM</div>
+    <div class="schedule-title">New Opportunities Enabled by Remote ML‑Controlled Acquisition — <span class="schedule-instructor">Utkarsh</span></div>
+  </div>
 
-  <tr>
-    <td>4:00 PM</td><td>4:30 PM</td>
-    <td colspan="6"><strong>Guest lecture</td>
-  </tr>
+  <div class="schedule-row">
+    <div>2:50 PM</div>
+    <div>3:10 PM</div>
+    <div class="schedule-title">Coffee Break</div>
+  </div>
 
-  <tr>
-    <td>4:30 PM</td><td>5:00 PM</td>
-    <td colspan="6"><strong>Conclusion (Kalinin and Duscher, hackathon)</td>
-  </tr>
+  <div class="schedule-row">
+    <div>3:10 PM</div>
+    <div>4:00 PM</div>
+    <div class="schedule-title">Guest lecture</div>
+  </div>
 
-</table>
+  <div class="schedule-row">
+    <div>4:00 PM</div>
+    <div>4:30 PM</div>
+    <div class="schedule-title">Guest lecture</div>
+  </div>
+
+  <div class="schedule-row">
+    <div>4:30 PM</div>
+    <div>5:00 PM</div>
+    <div class="schedule-title">Conclusion — <span class="schedule-instructor">Kalinin & Duscher</span></div>
+  </div>
+
+</div>
