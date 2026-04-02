@@ -73,6 +73,8 @@ menu_icon: clock
 
 
 
+<table>
+
   <!-- ===================== DAY 1 ===================== -->
   <tr class="dayhdr">
     <td colspan="8"><strong>Day 1 — Feb 19, 2026</strong></td>
