@@ -402,3 +402,46 @@ ul.grid {
   height: 17px;
   fill: currentColor;
 }
+
+
+/* --- Modern Schedule Grid --- */
+
+.schedule-day {
+  margin: 2rem 0;
+}
+
+.schedule-row {
+  display: grid;
+  grid-template-columns: 120px 120px 1fr;
+  gap: 12px;
+  padding: 10px 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.schedule-row:nth-child(even) {
+  background: #f9fafb;
+}
+
+.schedule-title {
+  font-weight: 600;
+  color: #1d2a56;
+}
+
+.schedule-instructor {
+  color: #475569;
+  font-size: 0.9rem;
+}
+
+.day-header {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 2rem 0 1rem;
+  padding: 8px 0;
+  border-bottom: 2px solid #1d2a56;
+}
+
+@media (max-width: 600px) {
+  .schedule-row {
+    grid-template-columns: 1fr;
+  }
+}
