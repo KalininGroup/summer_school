@@ -30,7 +30,7 @@ Please complete the form below to register for the **Summer School on ML for EM*
 <div class="reg-card"> 
   <iframe    src="https://docs.google.com/forms/d/e/1FAIpQLScWmn_l6OW9iWh7KApeOGABen91gt8_nq_MpcMD97Isku7ngg/viewform?embedded=true"
     width="100%"
-    height="1400"
+    height="1500"
     frameborder="0"
     marginheight="0"
     marginwidth="0">
