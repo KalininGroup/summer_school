@@ -37,6 +37,10 @@ menu_icon: collection
   overflow:hidden;
   margin-top:15px;
 }
+  .header-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
 </style>
 
 
