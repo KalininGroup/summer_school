@@ -10,6 +10,12 @@ $header-brand-color: #c0c0c0;// Orange
     border: none;
     color: #c3c3c3;
     min-height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;   /* <-- allows nav to drop under title */
+    row-gap: 0.6rem;   /* optional: cleaner spacing */
 }
 
 .site-nav {
