@@ -84,7 +84,7 @@ menu_icon: collection
     <a href="https://github.com/gduscher/MLSTEM2025"
        target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
        GitHub
-    </a>. 
+    </a>
   </p>
 </div>
 
@@ -154,10 +154,13 @@ menu_icon: collection
        target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
        GitHub
     </a>
-    Presentations and tutorials are available
+  </p>
+
+  <p>
+    Presentations and tutorials are available on
     <a href="https://www.youtube.com/playlist?list=PLS6ZvEWHZ3OP6-Z5qnzGKNKWA-l2Sry3l"
        target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
-       here
+       YouTube
     </a>
   </p>
 </div>
