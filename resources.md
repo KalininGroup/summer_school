@@ -76,27 +76,27 @@ menu_icon: book
    <p><a href="https://link.springer.com/book/10.1007/978-0-387-76501-3">Transmission Electron Microscopy</a></p>
    <p>Plenum Press, 2009 (2nd Edition)</p>
    
-   <p></p>
+   <p> </p>
    
-   <p><strong>Helmut Kohl , Ludwig Reimer<strong></p>
+   <p><strong>Helmut Kohl , Ludwig Reimer</strong></p>
    <p><a href="https://link.springer.com/book/10.1007/978-0-387-40093-8">Transmission Electron Microscopy</a></p>
    <p>Springer, Berlin, 2007 (5th Edition)</p>
    
-   <p></p>
+   <p> </p>
    
-   <p><strong>J. C. H. Spence , J. M. Zuo<strong></p>
+   <p><strong>J. C. H. Spence , J. M. Zuo</strong></p>
    <p><a href="https://link.springer.com/book/10.1007/978-1-4899-2353-0">Electron Microdiffraction</a></p>
    <p>Springer, NewYork, 2017</p>
    
-   <p></p>
+   <p> </p>
    
-   <p><strong>Earl J. Kirkland<strong></p>
+   <p><strong>Earl J. Kirkland</strong></p>
    <p><a href="https://link.springer.com/book/10.1007/978-1-4419-6533-2">Advanced Computing in Electron Microscopy</a></p>  
    <p>Springer, NewYork, 2010 (2nd Edition)</p>
    
-   <p></p>
+   <p> </p>
    
-   <p><strong>R.F. Egerton<strong></p>
+   <p><strong>R.F. Egerton</strong></p>
    <p><a href="https://link.springer.com/book/10.1007/978-1-4419-9583-4">Electron Energy-Loss Spectroscopy in the Electron Microscope</a></p>
    <p>Plenum Press, 2011 (3rd Edition)</p>
 
@@ -110,12 +110,12 @@ menu_icon: book
        </svg>
        Software
     </h2>
-    <p><strong>Image Analysis software for SEM and TEM<strong></p>
+    <p><strong>Image Analysis software for SEM and TEM</strong></p>
     <p>
-      <strong>ImageJ<strong>: a free imaging software with a lot of plugins: download from <a href="https://imagej.net/ij/">NIH
+      <strong>ImageJ</strong>: a free imaging software with a lot of plugins: download from <a href="https://imagej.net/ij/">NIH
     </p>
     <p></p>
     <p>
-      Use <strong><a href="https://github.com/gduscher/MSE672-Introduction-to-TEM">jupyter notebooks<strong> provided by Prof. Gerd Duscher
+      Use <strong><a href="https://github.com/gduscher/MSE672-Introduction-to-TEM">jupyter notebooks</strong> provided by Prof. Gerd Duscher
     </p>
   </div>
