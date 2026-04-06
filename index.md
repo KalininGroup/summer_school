@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Appalachian Regional Electron Microscopy Society Topical Conference
+title: 
 menu_title: Home
 menu_icon: house-door
 ---
@@ -51,7 +51,7 @@ menu_icon: house-door
 </style>
 
 <h1 class="animated-title">
-  Summer School on ML for Electron Microscopy
+  4<sup>th</sup> School on AI/ML for Electron Microscopy
 </h1>
 
 Dates: TBA
