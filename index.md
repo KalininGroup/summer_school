@@ -18,6 +18,7 @@ menu_icon: house-door
     #ff7a18c3,   /* warm orange */
     #ffb347c5,   /* soft golden orange */
     #ff7a18c3    /* warm orange again for symmetry */
+    
 );
 
   background-size: 400% 100%; /* Needed for smooth sweeping effect */
@@ -48,6 +49,11 @@ menu_icon: house-door
     font-size: 2rem;
   }
 }
+
+body.page-index .page-title {
+  display: none !important;
+}
+
 </style>
 
 <h1 class="animated-title">
