@@ -7,7 +7,7 @@ menu_icon: clock
 
   <!-- ===================== DAY 1 ===================== -->
 
-<div class="day-header">Day 1: Atomic Resolution STEM and Physics from Atomic Positions</div>
+<div class="day-header">Monday, June 22: Atomic Resolution STEM and Physics from Atomic Positions</div>
 
 <div class="schedule-day">
 
@@ -74,7 +74,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>4:00 PM</div>
     <div>5:00 PM</div>
-    <div class="schedule-title">Guest lecture</div>
+    <div class="schedule-title">Introduction to Neural Networks — <span class="schedule-instructor">Heon</span></div>
   </div>
 
 </div>
@@ -82,7 +82,7 @@ menu_icon: clock
 
   <!-- ===================== DAY 2 ===================== -->
 
-<div class="day-header">Day 2: Electron Diffraction and 4D‑STEM</div>
+<div class="day-header">Tuesday, June 23: Electron Diffraction and 4D‑STEM</div>
 
 <div class="schedule-day">
 
@@ -151,7 +151,7 @@ menu_icon: clock
   
   <!-- ===================== DAY 3 ===================== -->
 
-<div class="day-header">Day 3: Spectroscopic Data & ML‑Enabled Analysis</div>
+<div class="day-header">Wednesday, June 24: Spectroscopic Data & ML‑Enabled Analysis</div>
 
 <div class="schedule-day">
 
@@ -220,7 +220,7 @@ menu_icon: clock
 
    <!-- ===================== DAY 4 ===================== -->
 
-<div class="day-header">Day 4: ML for STEM: From Post‑Acquisition to Real‑Time Analytics</div>
+<div class="day-header">Thursday, June 25: ML for STEM: From Post‑Acquisition to Real‑Time Analytics</div>
 
 <div class="schedule-day">
 
@@ -233,7 +233,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>10:00 AM</div>
     <div>10:50 AM</div>
-    <div class="schedule-title">Guest lecture</div>
+    <div class="schedule-title">Convolutional Neural Network — <span class="schedule-instructor">Heon</span></div>
   </div>
 
   <div class="schedule-row">
@@ -295,7 +295,7 @@ menu_icon: clock
 
    <!-- ===================== DAY 5 ===================== -->
 
-<div class="day-header">Day 5: Decision‑Making & Human‑in‑the‑Loop Automated Experiment (hAE)</div>
+<div class="day-header">Friday, June 26: Decision‑Making & Human‑in‑the‑Loop Automated Experiment (hAE)</div>
 
 <div class="schedule-day">
 
