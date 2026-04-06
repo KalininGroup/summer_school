@@ -1,9 +1,13 @@
 ---
 layout: page
-title: 
+title: Home
 menu_title: Home
 menu_icon: house-door
 ---
+
+.page-title {
+  display: none;
+}
 
 <style>
 .animated-title {
