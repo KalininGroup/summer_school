@@ -42,7 +42,14 @@ menu_icon: book
   height: 22px;
   flex-shrink: 0;
 }
-
+  .book-card {
+  background: #ffffff;
+  border: 1px solid #e8ecf3;
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin: 18px 0;
+  box-shadow: 0 1px 2px rgba(16,24,40,.04);
+}
 </style>
 
 <div class="section-card">
@@ -72,50 +79,50 @@ menu_icon: book
     Books
   </h2>
   
-   <p><strong>David B. Williams , C. Barry Carter</strong></p>
-   <p><a href="https://link.springer.com/book/10.1007/978-0-387-76501-3">Transmission Electron Microscopy</a></p>
-   <p>Plenum Press, 2009 (2nd Edition)</p>
-   
-   <p> </p>
-   
-   <p><strong>Helmut Kohl , Ludwig Reimer</strong></p>
-   <p><a href="https://link.springer.com/book/10.1007/978-0-387-40093-8">Transmission Electron Microscopy</a></p>
-   <p>Springer, Berlin, 2007 (5th Edition)</p>
-   
-   <p> </p>
-   
-   <p><strong>J. C. H. Spence , J. M. Zuo</strong></p>
-   <p><a href="https://link.springer.com/book/10.1007/978-1-4899-2353-0">Electron Microdiffraction</a></p>
-   <p>Springer, NewYork, 2017</p>
-   
-   <p> </p>
-   
-   <p><strong>Earl J. Kirkland</strong></p>
-   <p><a href="https://link.springer.com/book/10.1007/978-1-4419-6533-2">Advanced Computing in Electron Microscopy</a></p>  
-   <p>Springer, NewYork, 2010 (2nd Edition)</p>
-   
-   <p> </p>
-   
-   <p><strong>R.F. Egerton</strong></p>
-   <p><a href="https://link.springer.com/book/10.1007/978-1-4419-9583-4">Electron Energy-Loss Spectroscopy in the Electron Microscope</a></p>
-   <p>Plenum Press, 2011 (3rd Edition)</p>
-
+  <div class="book-card">
+    <p><strong>David B. Williams , C. Barry Carter</strong></p>
+    <p><a href="https://link.springer.com/book/10.1007/978-0-387-76501-3">Transmission Electron Microscopy</a></p>
+    <p>Plenum Press, 2009 (2nd Edition)</p>
   </div>
 
-  <div class="section-card">
-    <h2>
-       <svg class="header-icon" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M11 5C11 4.44772 11.4477 4 12 4C12.5523 4 13 4.44772 13 5V12.1578L16.2428 8.91501L17.657 10.3292L12.0001 15.9861L6.34326 10.3292L7.75748 8.91501L11 12.1575V5Z"></path>
-         <path d="M4 14H6V18H18V14H20V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V14Z"></path>
-       </svg>
-       Software
-    </h2>
-    <p><strong>Image Analysis software for SEM and TEM</strong></p>
-    <p>
-      <strong>ImageJ</strong>: a free imaging software with a lot of plugins: download from <a href="https://imagej.net/ij/">NIH
-    </p>
-    <p></p>
-    <p>
-      Use <strong><a href="https://github.com/gduscher/MSE672-Introduction-to-TEM">jupyter notebooks</strong> provided by Prof. Gerd Duscher
-    </p>
+  <div class="book-card">
+    <p><strong>Helmut Kohl , Ludwig Reimer</strong></p>
+    <p><a href="https://link.springer.com/book/10.1007/978-0-387-40093-8">Transmission Electron Microscopy</a></p>
+    <p>Springer, Berlin, 2007 (5th Edition)</p>
   </div>
+
+  <div class="book-card">
+    <p><strong>J. C. H. Spence , J. M. Zuo</strong></p>
+    <p><a href="https://link.springer.com/book/10.1007/978-1-4899-2353-0">Electron Microdiffraction</a></p>
+    <p>Springer, NewYork, 2017</p>
+  </div>
+
+  <div class="book-card">
+    <p><strong>Earl J. Kirkland</strong></p>
+    <p><a href="https://link.springer.com/book/10.1007/978-1-4419-6533-2">Advanced Computing in Electron Microscopy</a></p>
+    <p>Springer, NewYork, 2010 (2nd Edition)</p>
+  </div>
+
+  <div class="book-card">
+    <p><strong>R.F. Egerton</strong></p>
+    <p><a href="https://link.springer.com/book/10.1007/978-1-4419-9583-4">Electron Energy-Loss Spectroscopy in the Electron Microscope</a></p>
+    <p>Plenum Press, 2011 (3rd Edition)</p>
+  </div>
+</div>
+
+<div class="section-card">
+  <h2>
+     <svg class="header-icon" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M11 5C11 4.44772 11.4477 4 12 4C12.5523 4 13 4.44772 13 5V12.1578L16.2428 8.91501L17.657 10.3292L12.0001 15.9861L6.34326 10.3292L7.75748 8.91501L11 12.1575V5Z"></path>
+       <path d="M4 14H6V18H18V14H20V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V14Z"></path>
+     </svg>
+     Image Analysis software for SEM and TEM
+  </h2>
+  <p>
+    <strong>ImageJ</strong>: a free imaging software with a lot of plugins: download from <a href="https://imagej.net/ij/">NIH</a>
+  </p>
+  <p></p>
+  <p>
+    Use <a href="https://github.com/gduscher/MSE672-Introduction-to-TEM">jupyter notebooks</a> provided by Prof. Gerd Duscher
+  </p>
+</div>
