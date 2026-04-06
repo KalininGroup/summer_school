@@ -54,7 +54,7 @@ menu_icon: house-door
   4<sup>th</sup> School on AI/ML for Electron Microscopy
 </h1>
 
-Dates: TBA
+Dates: **June 22-26, 2026**
 
 Hybrid format: online and at University of Tennessee, Knoxville, TN
 
