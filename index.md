@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: 
 menu_title: Home
 menu_icon: house-door
 ---
