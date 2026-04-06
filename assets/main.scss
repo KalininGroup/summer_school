@@ -454,7 +454,8 @@ ul.grid {
   }
 }
 
-
-.home .page-title {
-  display: none;
+.home .page-title,
+.home .post-title {
+  display: none !important;
 }
+
