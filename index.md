@@ -297,37 +297,37 @@ June 22-26, 2026 · Knoxville, Tennessee
   <!-- UTK -->
   <div class="institution-card">
     <p>University of Tennessee</p>
-    <img src="/assets/utk.png" alt="UTK logo">
+    <img src="{{ '/assets/utk.png'| relative_url }}" alt="UTK logo">
   </div>
 
   <!-- ORNL -->
   <div class="institution-card">
-    <p>Oak Ridge National Laboratory</p>
-    <img src="/assets/ornl.png" alt="ORNL logo">
+    <p>Oak Ridge National Laboratory</p>    
+    <img src="{{ '/assets/ornl.png'| relative_url }}" alt="ORNL logo">
   </div>
 
   <!-- BNL -->
   <div class="institution-card">
     <p>Brookhaven National Laboratory</p>
-    <img src="/assets/bnl.png" alt="BNL logo">
+    <img src="{{ '/assets/bnl.png'| relative_url }}" alt="BNL logo">
   </div>
 
   <!-- Thermo Fisher -->
   <div class="institution-card">
     <p>Thermo Fisher</p>
-    <img src="/assets/thermo.png" alt="Thermo Fisher logo">
+    <img src="{{ '/assets/thermo.png'| relative_url }}" alt="Thermo Fisher  logo">
   </div>
 
   <!-- AtomQ -->
   <div class="institution-card">
     <p>AtomQ</p>
-    <img src="/assets/atomq.png" alt="AtomQ logo">
+    <img src="{{ '/assets/atomq.png'| relative_url }}" alt="AtomQ logo">
   </div>
 
   <!-- Mat3ra -->
   <div class="institution-card">
-    <p>Mat3ra</p>
-    <img src="/assets/mat3ra.png" alt="Mat3ra logo">
+    <p>Mat3ra</p>    
+    <img src="{{ '/assets/mat3ra.png'| relative_url }}" alt="Mat3ra logo">
   </div>
 
 </div>
