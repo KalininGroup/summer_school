@@ -455,6 +455,41 @@ ul.grid {
   }
 }
 
+/* --- Tutorials Card --- */
+
+.tutorials-card {
+  padding: 20px 24px;
+}
+
+.tutorials-card h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1d2a56;
+}
+
+.tutorials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 40px;
+}
+
+.tutorials-col p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Mobile: 1 column */
+@media (max-width: 700px) {
+  .tutorials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 
 .section-title {
   text-align: center;
