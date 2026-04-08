@@ -20,6 +20,26 @@
     <!-- PASSWORD PROTECTION -->
     <!-- <script src="{{ '/assets/auth.js' | relative_url }}"></script> -->
 
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Back to top">↑</button>
+    
+    <script>
+      const btn = document.getElementById("backToTop");
+    
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          btn.style.display = "flex";
+        } else {
+          btn.style.display = "none";
+        }
+      });
+    
+      btn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+
   </body>
 
 </html>
