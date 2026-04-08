@@ -499,7 +499,7 @@ ul.grid {
   color: #1d2a56;
 }
 
-/* --- Back to Top Button --- */
+/* Back to Top Button */
 #backToTop {
   position: fixed;
   bottom: 24px;
@@ -510,40 +510,6 @@ ul.grid {
   background: #1d2a56;
   color: white;
   border: none;
-  font-size: 22px;
-  cursor: pointer;
-  display: none; /* hidden by default */
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  transition: opacity 0.3s ease, transform 0.2s ease;
-  z-index: 999;
-}
-
-#backToTop:hover {
-  background: #0f172a;
-  transform: translateY(-2px);
-}
-
-#arrowIcon {
-  transform: rotate(90deg);
-  position: relative;
-  z-index: 2;
-}
-
-
-/* --- Scroll Progress Ring --- */
-#backToTop {
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  background: #1d2a56;
-  color: white;
-  border: none;
-  font-size: 22px;
   cursor: pointer;
   display: none;
   align-items: center;
@@ -551,24 +517,32 @@ ul.grid {
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   transition: opacity 0.3s ease, transform 0.2s ease;
   z-index: 999;
-  position: fixed;
 }
 
+/* Progress ring container */
 #backToTop svg {
   position: absolute;
   top: 0;
   left: 0;
-  transform: rotate(-90deg);
+  transform: rotate(-90deg); /* ring starts at top */
 }
 
+/* The ring itself */
 #backToTop circle {
   fill: none;
-  stroke: #ff8800; /* UTK orange accent */
+  stroke: #ff8800; /* UTK orange */
   stroke-width: 4;
   stroke-linecap: round;
-  stroke-dasharray: 126; /* circumference of r=20 circle */
+  stroke-dasharray: 126;
   stroke-dashoffset: 126;
   transition: stroke-dashoffset 0.1s linear;
+}
+
+/* Arrow icon */
+#arrowIcon {
+  position: relative;
+  z-index: 2;
+  transform: rotate(90deg); /* counteracts ring rotation */
 }
 
 #backToTop span {
