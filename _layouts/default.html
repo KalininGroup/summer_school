@@ -22,7 +22,16 @@
 
 
     <!-- Back to Top Button -->
-    <button id="backToTop" title="Back to top">↑</button>
+    <button id="backToTop" title="Go to top">
+      <svg id="progressRing" width="46" height="46">
+        <circle cx="23" cy="23" r="20" />
+      </svg>
+      <svg id="arrowIcon" width="20" height="20" viewBox="0 0 24 24">
+        <path d="M12 4 L6 10 H10 V20 H14 V10 H18 Z" fill="white"/>
+      </svg>
+
+    </button>
+
     
     <script>
       const btn = document.getElementById("backToTop");
@@ -39,6 +48,30 @@
         window.scrollTo({ top: 0, behavior: "smooth" });
       });
     </script>
+
+    <script>
+      const btn = document.getElementById("backToTop");
+      const ring = document.querySelector("#progressRing circle");
+      const circumference = 2 * Math.PI * 20; // r = 20
+    
+      window.addEventListener("scroll", () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = scrollTop / docHeight;
+    
+        // Show/hide button
+        btn.style.display = scrollTop > 300 ? "flex" : "none";
+    
+        // Update ring
+        const offset = circumference - progress * circumference;
+        ring.style.strokeDashoffset = offset;
+      });
+    
+      btn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+
 
   </body>
 
