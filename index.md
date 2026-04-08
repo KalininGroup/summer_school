@@ -38,15 +38,15 @@ menu_icon: house-door
 
 /* Format subtitle — dark orange*/
 .subtitle-format {
-  color: #FF8200
-  margin-bottom: 1.2rem; ;
+  color: #FF8200;
+  margin-bottom: 1.2rem;
 }
 
 .institution-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 22px;
-  margin: 40px auto;
+  margin: 20px auto 40px;
   max-width: 900px;
 }
 
@@ -57,12 +57,14 @@ menu_icon: house-door
   padding: 18px 14px;
   text-align: center;
   box-shadow: 0 1px 2px rgba(16,24,40,.04);
-}
 
 .institution-card img {
-  width: 80px;
+  max-width: 80px;
+  max-height: 60px;
+  width: auto;
   height: auto;
   margin-top: 10px;
+  object-fit: contain;
   opacity: 0.95;
 }
 
@@ -165,9 +167,9 @@ June 22-26, 2026 · Knoxville, Tennessee
 
 **A focused, hands‑on program on machine learning for electron microscopy — from data analysis and real‑time analytics to autonomous instrument control. Hosted by the University of Tennessee, Knoxville, with collaboration with leading national laboratories and industry partners.**
 
-## Organizing Team
-
 <!-- Team Grid Wrapper -->
+<h2 class="section-title">Organizing Team</h2>
+
 <div class="team-grid">
 
   <!-- Kalinin -->
@@ -271,7 +273,8 @@ June 22-26, 2026 · Knoxville, Tennessee
   </p>
 </div>
 
-<h2 style="text-align:center; margin-top:50px;">In Collaboration With</h2>
+<!-- collaboration -->
+<h2 class="section-title">In Collaboration With</h2>
 
 <div class="institution-grid">
 
