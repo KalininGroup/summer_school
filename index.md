@@ -6,41 +6,70 @@ menu_icon: house-door
 ---
 
 <style>
+/* MAIN TITLE */
 .animated-title {
   font-size: 2.8rem;
   font-weight: 900;
   text-align: center;
   letter-spacing: -0.5px;
 
-  /* Multi-color gradient that will animate */
-  background: linear-gradient(
-    90deg,
-    #ff7a18c3,   /* warm orange */
-    #ffb347c5,   /* soft golden orange */
-    #ff7a18c3    /* warm orange again for symmetry */
-    
-);
-
-  background-size: 400% 100%; /* Needed for smooth sweeping effect */
-
+  /* Static warm orange gradient */
+  background: linear-gradient(90deg, #ff7a18, #ffb347, #ff7a18);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  /* Combine color wave + soft vertical float motion */
-  animation: none; /*colorwave 35s linear infinite, floatwave 15s ease-in-out infinite; */
+  animation: none;
 }
 
-/* Left → Right color sweep */
-@keyframes colorwave {
-  0%   { background-position:   0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position:   0% 50%; }
+/* SUBTITLES */
+.subtitle {
+  text-align: center;
+  font-size: 1.55rem;   /* ~55% of 2.8rem */
+  font-weight: 600;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  letter-spacing: -0.3px;
 }
 
-/* Gentle up–down wave motion */
-@keyframes floatwave {
-  0%, 100% { transform: translateY(0px); }
-  50%      { transform: translateY(-4px); }
+/* Dates subtitle — UTK  orange */
+.subtitle-dates {
+  color: #FF8200;
+}
+
+/* Format subtitle — dark orange*/
+.subtitle-format {
+  color: #CC6600;
+}
+
+.institution-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.institution-card {
+  background: #fafbfd;
+  border: 1px solid #e8ecf3;
+  border-radius: 14px;
+  padding: 18px 14px;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(16,24,40,.04);
+}
+
+.institution-card img {
+  width: 80px;
+  height: auto;
+  margin-top: 10px;
+  opacity: 0.95;
+}
+
+.institution-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1d2a56;
 }
 
 /* Mobile scaling */
@@ -48,35 +77,31 @@ menu_icon: house-door
   .animated-title {
     font-size: 2rem;
   }
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  .institution-grid {
+    grid-template-columns: 1fr;
+  }
 }
-
-body.page-index .page-title {
-  display: none !important;
-}
-
+  
 </style>
 
+
 <h1 class="animated-title">
-  4<sup>th</sup> School on AI/ML for Electron Microscopy
+  4<sup>th</sup> School on ML/AI for Electron Microscopy
 </h1>
 
-Dates: **June 22-26, 2026**
+<div class="subtitle subtitle-dates">
+June 22-26, 2026 · Knoxville, Tennessee
+</div>
 
-Hybrid format: online and at University of Tennessee, Knoxville, TN
+<div class="subtitle subtitle-format">
+  Hybrid format (online + in‑person)
+</div>
 
 ---
-
-The Summer School will introduce participants to the core concepts of Machine Learning for Electron Microscopy, with a strong emphasis on the rapidly evolving landscape of automated and AI‑assisted experimentation. While foundational ML topics will be covered, the central focus of the program is on next‑generation autonomous microscopy workflows and their practical implementation.
-
-Participants will explore:
-- AI‑driven experimental workflows
-- Real‑time data analytics and adaptive decision‑making
-- Hands‑on automation and instrument control
-- Working with real microscopy data and digital twins
-- Implementation of autonomous microscopy
-
-Whether your interests lie in microscopy data analysis, automated instrument control, or AI‑enhanced materials discovery, this school offers a comprehensive introduction to the state‑of‑the‑art and a forward‑looking perspective on the future of ML‑enabled microscopy.
-
+A focused, hands‑on program on machine learning for electron microscopy — from data analysis and real‑time analytics to autonomous instrument control. Hosted by the University of Tennessee, Knoxville, with collaboration with leading national laboratories and industry partners.
 ---
 
 ## Organizing Team
@@ -163,4 +188,45 @@ Whether your interests lie in microscopy data analysis, automated instrument con
 Stay tuned for the updates!
 </div>
 
+---
+<h2 style="text-align:center; margin-top:50px;">In Collaboration With</h2>
 
+<div class="institution-grid">
+
+  <!-- UTK -->
+  <div class="institution-card">
+    <p>University of Tennessee</p>
+    <img src="/assets/logos/utk.png" alt="UTK logo">
+  </div>
+
+  <!-- ORNL -->
+  <div class="institution-card">
+    <p>Oak Ridge National Laboratory</p>
+    <img src="/assets/logos/ornl.png" alt="ORNL logo">
+  </div>
+
+  <!-- BNL -->
+  <div class="institution-card">
+    <p>Brookhaven National Laboratory</p>
+    <img src="/assets/logos/bnl.png" alt="BNL logo">
+  </div>
+
+  <!-- Thermo Fisher -->
+  <div class="institution-card">
+    <p>Thermo Fisher</p>
+    <img src="/assets/logos/thermo.png" alt="Thermo Fisher logo">
+  </div>
+
+  <!-- AtomQ -->
+  <div class="institution-card">
+    <p>AtomQ</p>
+    <img src="/assets/logos/atomq.png" alt="AtomQ logo">
+  </div>
+
+  <!-- Mat3ra -->
+  <div class="institution-card">
+    <p>Mat3ra</p>
+    <img src="/assets/logos/mat3ra.png" alt="Mat3ra logo">
+  </div>
+
+</div>
