@@ -24,7 +24,7 @@ menu_icon: house-door
 /* SUBTITLES */
 .subtitle {
   text-align: center;
-  font-size: 1.55rem;   /* ~55% of 2.8rem */
+  font-size: 1.7rem;
   font-weight: 600;
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
@@ -33,12 +33,13 @@ menu_icon: house-door
 
 /* Dates subtitle — UTK  orange */
 .subtitle-dates {
-  color: #FF8200;
+  color: #CC6600;
 }
 
 /* Format subtitle — dark orange*/
 .subtitle-format {
-  color: #CC6600;
+  color: #FF8200
+  margin-bottom: 1.2rem; ;
 }
 
 .institution-grid {
@@ -84,6 +85,68 @@ menu_icon: house-door
     grid-template-columns: 1fr;
   }
 }
+
+/* Tutorials card layout */
+.tutorials-card {
+  padding: 20px 24px;
+}
+
+.tutorials-card h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1d2a56;
+}
+
+.tutorials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 40px;
+}
+
+.tutorials-col p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Mobile: switch to 1 column */
+@media (max-width: 700px) {
+  .tutorials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+  .participation-card {
+  padding: 20px 24px;
+}
+
+.participation-card h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1d2a56;
+}
+
+.participation-card p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.45;
+}
+
+.reg-link {
+  color: #CC6600; /* UTK dark orange */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.reg-link:hover {
+  text-decoration: underline;
+}
   
 </style>
 
@@ -100,9 +163,7 @@ June 22-26, 2026 · Knoxville, Tennessee
   Hybrid format (online + in‑person)
 </div>
 
----
-A focused, hands‑on program on machine learning for electron microscopy — from data analysis and real‑time analytics to autonomous instrument control. Hosted by the University of Tennessee, Knoxville, with collaboration with leading national laboratories and industry partners.
----
+**A focused, hands‑on program on machine learning for electron microscopy — from data analysis and real‑time analytics to autonomous instrument control. Hosted by the University of Tennessee, Knoxville, with collaboration with leading national laboratories and industry partners.**
 
 ## Organizing Team
 
@@ -177,18 +238,39 @@ A focused, hands‑on program on machine learning for electron microscopy — fr
 
 
 
+<div class="section-card tutorials-card">
+  <h2>Tutorials by</h2>
+  
+  <div class="tutorials-grid">
 
----
-
----
-
-### Participation
-
-<div style="text-align:center; font-size:1.5rem; opacity:0.7; margin-top:2rem;">
-Stay tuned for the updates!
+  <div class="tutorials-col">
+    <p>Kevin Roccapriore (AtomQ)</p>
+    <p>Rama Vasudevan (ORNL)</p>
+    <p>Kamal Choudhary (JHU)</p>
+    <p>Colin Ophus (Stanford)</p>
+  </div>
+    <div class="tutorials-col">
+      <p>Austin Houston</p>
+      <p>Boris Slautin</p>
+      <p>Elizabeth Heon</p>
+    </div>
+    
+  </div>  
 </div>
 
----
+<!-- Participation -->
+<div class="section-card participation-card">
+  <h2>Participation & Registration</h2>
+
+  <p><strong>Participation is free of charge.</strong> The Summer School welcomes students, researchers, and industry participants interested in Machine Learning for Electron Microscopy.</p>
+
+  <p>The event will be held in a <strong>hybrid format</strong>, with both in‑person (at University of Tennessee) and online attendance options.</p>
+
+  <p><strong>Registration is required.</strong> Please register using the form on the 
+    <a href="https://kaliningroup.github.io/summer_school/registration/" class="reg-link">Registration page</a>.
+  </p>
+</div>
+
 <h2 style="text-align:center; margin-top:50px;">In Collaboration With</h2>
 
 <div class="institution-grid">
