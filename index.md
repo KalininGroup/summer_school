@@ -256,11 +256,10 @@ June 22-26, 2026 · Knoxville, Tennessee
 </div>
 
 <!-- Tutorials -->
-<div class="tutorials-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px 40px;"></div>
+<h2 class="section-title">Tutorials by</h2>
 
 <div class="section-card tutorials-card">
-  <h2 class="section-title">Tutorials by</h2>
-  
+    
   <div class="tutorials-grid">
     <div class="tutorials-col">
       <p>Kevin Roccapriore (AtomQ)</p>
@@ -278,9 +277,10 @@ June 22-26, 2026 · Knoxville, Tennessee
 </div>
 
 <!-- Participation -->
+<h2 class="section-title">Participation & Registration</h2>
+
 <div class="section-card participation-card">
-  <h2 class="section-title">Participation & Registration</h2>
-  
+    
   <p><strong>Participation is free of charge.</strong> The Summer School welcomes students, researchers, and industry participants interested in Machine Learning for Electron Microscopy.</p>
 
   <p>The event will be held in a <strong>hybrid format</strong>, with both in‑person (at University of Tennessee) and online attendance options.</p>
