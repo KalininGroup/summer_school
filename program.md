@@ -350,7 +350,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>4:00 PM</div>
     <div>4:30 PM</div>
-    <div class="schedule-title">4:00-4:30 New opportunities for STEM — <span class="schedule-instructor">Lupini</span></div>
+    <div class="schedule-title">New opportunities for STEM — <span class="schedule-instructor">Lupini</span></div>
   </div>
 
   <div class="schedule-row">
