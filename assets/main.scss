@@ -520,11 +520,11 @@ ul.grid {
 }
 
 /* Progress ring container */
-#backToTop svg {
+#progressRing {
   position: absolute;
   top: 0;
   left: 0;
-  transform: rotate(-90deg); /* ring starts at top */
+  transform: rotate(-90deg);
 }
 
 /* The ring itself */
@@ -538,11 +538,12 @@ ul.grid {
   transition: stroke-dashoffset 0.1s linear;
 }
 
-/* Arrow icon */
 #arrowIcon {
   position: relative;
   z-index: 2;
-  transform: rotate(90deg); /* counteracts ring rotation */
+  transform: rotate(90deg) !important; /* force upright */
+  width: 24px;   /* bigger arrow */
+  height: 24px;
 }
 
 #backToTop span {
