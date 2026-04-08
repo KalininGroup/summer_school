@@ -549,4 +549,7 @@ ul.grid {
 #backToTop span {
   position: relative;
   z-index: 2;
+  font-size: 26px;      /* bigger arrow */
+  font-weight: 900;     /* thick arrow */
+  line-height: 1;
 }
