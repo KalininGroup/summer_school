@@ -125,7 +125,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>2:00 PM</div>
     <div>2:50 PM</div>
-    <div class="schedule-title">4D STEM (guest lecture) — <span class="schedule-instructor">Colin Ophus, Stanford</span></div>
+    <div class="schedule-title">4D STEM (guest lecture) — <span class="schedule-instructor">Ophus, Stanford</span></div>
   </div>
 
   <div class="schedule-row">
@@ -275,7 +275,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>3:10 PM</div>
     <div>4:00 PM</div>
-    <div class="schedule-title">Agentic analysis and streaming to theory — <span class="schedule-instructor">Kamal Choudhary, JHU</span></div>
+    <div class="schedule-title">Agentic analysis and streaming to theory — <span class="schedule-instructor">Choudhary, JHU</span></div>
   </div>
 
   <div class="schedule-row">
