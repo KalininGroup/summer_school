@@ -255,6 +255,7 @@ June 22-26, 2026 · Knoxville, Tennessee
 
 </div>
 
+<div class="tutorials-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px 40px;">
 
 
 <div class="section-card tutorials-card">
