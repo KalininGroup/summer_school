@@ -42,6 +42,23 @@ menu_icon: house-door
   margin-bottom: 1.2rem;
 }
 
+  .section-card {
+  background: #fafbfd;
+  border: 1px solid #e8ecf3;
+  border-radius: 14px;
+  padding: 20px 24px;
+  margin: 40px auto;
+  box-shadow: 0 1px 2px rgba(16,24,40,.04);
+  max-width: 900px;
+}
+  .section-title {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1d2a56;
+}
+
 .institution-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -241,29 +258,28 @@ June 22-26, 2026 · Knoxville, Tennessee
 
 
 <div class="section-card tutorials-card">
-  <h2>Tutorials by</h2>
+  <h2 class="section-title">Tutorials by</h2>
   
   <div class="tutorials-grid">
-
-  <div class="tutorials-col">
-    <p>Kevin Roccapriore (AtomQ)</p>
-    <p>Rama Vasudevan (ORNL)</p>
-    <p>Kamal Choudhary (JHU)</p>
-    <p>Colin Ophus (Stanford)</p>
-  </div>
+    <div class="tutorials-col">
+      <p>Kevin Roccapriore (AtomQ)</p>
+      <p>Rama Vasudevan (ORNL)</p>
+      <p>Kamal Choudhary (JHU)</p>
+      <p>Colin Ophus (Stanford)</p>
+    </div>    
     <div class="tutorials-col">
       <p>Austin Houston</p>
       <p>Boris Slautin</p>
       <p>Elizabeth Heon</p>
-    </div>
-    
-  </div>  
+    </div>    
+  </div> 
+  
 </div>
 
 <!-- Participation -->
 <div class="section-card participation-card">
-  <h2>Participation & Registration</h2>
-
+  <h2 class="section-title">Participation & Registration</h2>
+  
   <p><strong>Participation is free of charge.</strong> The Summer School welcomes students, researchers, and industry participants interested in Machine Learning for Electron Microscopy.</p>
 
   <p>The event will be held in a <strong>hybrid format</strong>, with both in‑person (at University of Tennessee) and online attendance options.</p>
