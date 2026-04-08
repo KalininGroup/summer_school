@@ -14,7 +14,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>8:30 AM</div>
     <div>9:00 AM</div>
-    <div class="schedule-title">Welcome</div>
+    <div class="schedule-title">Welcome and Introduction — <span class="schedule-instructor">Kalinin</span></div>
   </div>
 
   <div class="schedule-row">
@@ -32,7 +32,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>10:50 AM</div>
     <div>11:00 AM</div>
-    <div class="schedule-title">Coffee Break</div>
+    <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
   <div class="schedule-row">
@@ -44,37 +44,37 @@ menu_icon: clock
   <div class="schedule-row">
     <div>12:00 AM</div>
     <div>1:00 PM</div>
-    <div class="schedule-title">Lunch (provided for registered onsite participants)</div>
+    <div class="schedule-title"><i>Lunch (provided for registered onsite participants)</i></div>
   </div>
 
   <div class="schedule-row">
     <div>1:00 PM</div>
     <div>2:00 PM</div>
-    <div class="schedule-title">Remote Atomic Resolution Imaging — <span class="schedule-instructor">Duscher, Houston</span></div>
+    <div class="schedule-title">Cloudifying STEM: APIs, cybersecurity, operation — <span class="schedule-instructor">Duscher, Houston</span></div>
   </div>
 
   <div class="schedule-row">
     <div>2:00 PM</div>
     <div>2:50 PM</div>
-    <div class="schedule-title">Methods of Atom Position determination [Participant computer] — <span class="schedule-instructor">Barakati</span></div>
+    <div class="schedule-title">Building the STEM control agents — <span class="schedule-instructor">Sanchez</span></div>
   </div>
 
   <div class="schedule-row">
     <div>2:50 PM</div>
     <div>3:10 PM</div>
-    <div class="schedule-title">Coffee Break</div>
+    <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
   <div class="schedule-row">
     <div>3:10 PM</div>
     <div>4:00 PM</div>
-    <div class="schedule-title">First Machine Learning Algorithms for Atomically Resolved Images — <span class="schedule-instructor">Houston</span></div>
+    <div class="schedule-title">Physics from STEM data [Participant computer] — <span class="schedule-instructor">Kalinin, Houston</span></div>
   </div>
 
   <div class="schedule-row">
     <div>4:00 PM</div>
     <div>5:00 PM</div>
-    <div class="schedule-title">Introduction to Neural Networks — <span class="schedule-instructor">Heon</span></div>
+    <div class="schedule-title">Hackathon 1: Image analysis pipelines</div>
   </div>
 
 </div>
@@ -101,7 +101,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>10:50 AM</div>
     <div>11:00 AM</div>
-    <div class="schedule-title">Coffee Break</div>
+    <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
   <div class="schedule-row">
@@ -113,7 +113,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>12:00 PM</div>
     <div>1:00 PM</div>
-    <div class="schedule-title">Lunch (provided for registered onsite participants)</div>
+    <div class="schedule-title"><i>Lunch (provided for registered onsite participants)</i></div>
   </div>
 
   <div class="schedule-row">
@@ -125,13 +125,13 @@ menu_icon: clock
   <div class="schedule-row">
     <div>2:00 PM</div>
     <div>2:50 PM</div>
-    <div class="schedule-title">Clustering Algorithms for 1D and 2D Datasets — <span class="schedule-instructor">Barakati</span></div>
+    <div class="schedule-title">4D STEM (guest lecture) — <span class="schedule-instructor">Colin Ophus, Stanford</span></div>
   </div>
 
   <div class="schedule-row">
     <div>2:50 PM</div>
     <div>3:10 PM</div>
-    <div class="schedule-title">Coffee Break</div>
+    <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
   <div class="schedule-row">
@@ -143,7 +143,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>4:00 PM</div>
     <div>5:00 PM</div>
-    <div class="schedule-title">Processing of 4D Datasets [Participant computer] — <span class="schedule-instructor">Houston</span></div>
+    <div class="schedule-title">Hackathon 2: Data curation and unsupervised analysis of the diffraction data</div>
   </div>
 
 </div>
@@ -164,13 +164,13 @@ menu_icon: clock
   <div class="schedule-row">
     <div>10:00 AM</div>
     <div>10:50 AM</div>
-    <div class="schedule-title">Remote Acquisition of EDS Spectra — <span class="schedule-instructor">Duscher, Houston</span></div>
+    <div class="schedule-title">Remote Acquisition of EDS Spectra in STEM — <span class="schedule-instructor">Duscher, Houston</span></div>
   </div>
 
   <div class="schedule-row">
     <div>10:50 AM</div>
     <div>11:00 AM</div>
-    <div class="schedule-title">Coffee Break</div>
+    <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
   <div class="schedule-row">
@@ -182,13 +182,13 @@ menu_icon: clock
   <div class="schedule-row">
     <div>12:00 PM</div>
     <div>1:00 PM</div>
-    <div class="schedule-title">Lunch (provided for registered onsite participants)</div>
+    <div class="schedule-title"><i>Lunch (provided for registered onsite participants)</i></div>
   </div>
 
   <div class="schedule-row">
     <div>1:00 PM</div>
     <div>2:00 PM</div>
-    <div class="schedule-title">Remote & Smart Acquisition of Spectra — <span class="schedule-instructor">Duscher, Houston</span></div>
+    <div class="schedule-title">Federating STEM: from machine to network — <span class="schedule-instructor">Kalinin, BlueSky</span></div>
   </div>
 
   <div class="schedule-row">
@@ -200,7 +200,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>2:50 PM</div>
     <div>3:10 PM</div>
-    <div class="schedule-title">Coffee Break</div>
+    <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
   <div class="schedule-row">
@@ -212,7 +212,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>4:00 PM</div>
     <div>5:00 PM</div>
-    <div class="schedule-title">ML‑Enhanced Analysis of EELS [Participant computer] — <span class="schedule-instructor">Kalinin</span></div>
+    <div class="schedule-title">Hackathon 3: ML‑Enhanced Analysis of EELS [Participant computer] — <span class="schedule-instructor">Kalinin</span></div>
   </div>
 
 </div>
@@ -233,61 +233,55 @@ menu_icon: clock
   <div class="schedule-row">
     <div>10:00 AM</div>
     <div>10:50 AM</div>
-    <div class="schedule-title">Convolutional Neural Network — <span class="schedule-instructor">Heon</span></div>
+    <div class="schedule-title">Convolutional Neural Network for Images — <span class="schedule-instructor">Heon</span></div>
   </div>
 
   <div class="schedule-row">
     <div>10:50 AM</div>
     <div>11:00 AM</div>
-    <div class="schedule-title">Coffee Break</div>
+    <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
   <div class="schedule-row">
     <div>11:10 AM</div>
     <div>12:00 PM</div>
-    <div class="schedule-title">Neural Networks for Images II [Participant computer] — <span class="schedule-instructor">Pratiush</span></div>
+    <div class="schedule-title">VAE for Image and Spectrum Analysis — <span class="schedule-instructor">Kalinin</span></div>
   </div>
 
   <div class="schedule-row">
     <div>12:00 PM</div>
     <div>1:00 PM</div>
-    <div class="schedule-title">Lunch (provided for registered onsite participants)</div>
+    <div class="schedule-title"><i>Lunch (provided for registered onsite participants)</i></div>
   </div>
 
   <div class="schedule-row">
     <div>1:00 PM</div>
     <div>2:00 PM</div>
-    <div class="schedule-title">VAE for Image Analysis — <span class="schedule-instructor">Kalinin</span></div>
+    <div class="schedule-title">Autonomous Operation — <span class="schedule-instructor">TF</span></div>
   </div>
 
   <div class="schedule-row">
     <div>2:00 PM</div>
     <div>2:50 PM</div>
-    <div class="schedule-title">Guest lecture</div>
+    <div class="schedule-title">ML-based tuning and drift correction — <span class="schedule-instructor">Houston, Kalinin</span></div>
   </div>
 
   <div class="schedule-row">
     <div>2:50 PM</div>
     <div>3:10 PM</div>
-    <div class="schedule-title">Coffee Break</div>
+    <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
   <div class="schedule-row">
     <div>3:10 PM</div>
     <div>4:00 PM</div>
-    <div class="schedule-title">Guest lecture</div>
+    <div class="schedule-title">Agentic analysis and streaming to theory — <span class="schedule-instructor">Kamal Choudhary, JHU</span></div>
   </div>
 
   <div class="schedule-row">
     <div>4:00 PM</div>
-    <div>4:30 PM</div>
-    <div class="schedule-title">Guest lecture</div>
-  </div>
-
-  <div class="schedule-row">
-    <div>4:30 PM</div>
     <div>5:00 PM</div>
-    <div class="schedule-title">Guest lecture</div>
+    <div class="schedule-title">Hackathon 4: Building agents for STEM</div>
   </div>
 
 </div>   
@@ -295,7 +289,7 @@ menu_icon: clock
 
    <!-- ===================== DAY 5 ===================== -->
 
-<div class="day-header">Friday, June 26: Decision‑Making & Human‑in‑the‑Loop Automated Experiment (hAE)</div>
+<div class="day-header">Friday, June 26: Automated and Autonomous Electron Microscopy</div>
 
 <div class="schedule-day">
 
@@ -308,61 +302,61 @@ menu_icon: clock
   <div class="schedule-row">
     <div>10:00 AM</div>
     <div>10:50 AM</div>
-    <div class="schedule-title">Reward Functions for Decision Making — <span class="schedule-instructor">Barakati</span></div>
+    <div class="schedule-title">Reward Functions for Decision Making — <span class="schedule-instructor">Kalinin</span></div>
   </div>
 
   <div class="schedule-row">
     <div>10:50 AM</div>
     <div>11:00 AM</div>
-    <div class="schedule-title">Coffee Break</div>
+    <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
   <div class="schedule-row">
     <div>11:10 AM</div>
     <div>12:00 PM</div>
-    <div class="schedule-title">Gaussian Processes & Bayesian Optimization — <span class="schedule-instructor">Kalinin</span></div>
+    <div class="schedule-title">Principles of Gaussian Processes and Bayesian Optimization — <span class="schedule-instructor">Kalinin</span></div>
   </div>
 
   <div class="schedule-row">
     <div>12:00 PM</div>
     <div>1:00 PM</div>
-    <div class="schedule-title">Lunch (provided for registered onsite participants)</div>
+    <div class="schedule-title"><i>Lunch (provided for registered onsite participants)</i></div>
   </div>
 
   <div class="schedule-row">
     <div>1:00 PM</div>
     <div>2:00 PM</div>
-    <div class="schedule-title">Deep Kernel Neural Learning & hAE — <span class="schedule-instructor">Kalinin</span></div>
+    <div class="schedule-title">Deep Kernel Neural Learning and hAE — <span class="schedule-instructor">Kalinin</span></div>
   </div>
 
   <div class="schedule-row">
     <div>2:00 PM</div>
     <div>2:50 PM</div>
-    <div class="schedule-title">New Opportunities Enabled by Remote ML‑Controlled Acquisition — <span class="schedule-instructor">Utkarsh</span></div>
+    <div class="schedule-title">AE STEM for Materials Exploration — <span class="schedule-instructor">Slautin</span></div>
   </div>
 
   <div class="schedule-row">
     <div>2:50 PM</div>
     <div>3:10 PM</div>
-    <div class="schedule-title">Coffee Break</div>
+    <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
   <div class="schedule-row">
     <div>3:10 PM</div>
     <div>4:00 PM</div>
-    <div class="schedule-title">Guest lecture</div>
+    <div class="schedule-title">Atomic Fabrication with STEM — <span class="schedule-instructor">Roccapriore, AtomQ</span></div>
   </div>
 
   <div class="schedule-row">
     <div>4:00 PM</div>
     <div>4:30 PM</div>
-    <div class="schedule-title">Guest lecture</div>
+    <div class="schedule-title">4:00-4:30 New opportunities for STEM — <span class="schedule-instructor">Lupini</span></div>
   </div>
 
   <div class="schedule-row">
     <div>4:30 PM</div>
     <div>5:00 PM</div>
-    <div class="schedule-title">Conclusion — <span class="schedule-instructor">Kalinin & Duscher</span></div>
+    <div class="schedule-title">Conclusion — <span class="schedule-instructor">Kalinin and Duscher</span></div>
   </div>
 
 </div>
