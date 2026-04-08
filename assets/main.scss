@@ -526,9 +526,11 @@ ul.grid {
 }
 
 #arrowIcon {
+  transform: rotate(90deg);
   position: relative;
   z-index: 2;
 }
+
 
 /* --- Scroll Progress Ring --- */
 #backToTop {
