@@ -498,3 +498,29 @@ ul.grid {
   font-weight: 700;
   color: #1d2a56;
 }
+
+/* --- Back to Top Button --- */
+#backToTop {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #1d2a56;
+  color: white;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  display: none; /* hidden by default */
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  z-index: 999;
+}
+
+#backToTop:hover {
+  background: #0f172a;
+  transform: translateY(-2px);
+}
