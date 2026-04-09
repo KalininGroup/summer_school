@@ -553,13 +553,19 @@ ul.grid {
   transform: translateY(-2px);
 }
 
-/* Progress ring container */
 #progressRing {
   position: absolute;
+
+  /* Hard center inside the button */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
+
+  /* Prevent the arrow’s bounding box from affecting centering */
+  transform-origin: center center;
+  pointer-events: none;
 }
+
 
 /* The ring itself */
 #backToTop circle {
