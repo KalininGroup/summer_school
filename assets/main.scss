@@ -73,9 +73,8 @@ $header-brand-color: #c0c0c0;// Orange
 
 .site-title {
     display: block;
-    background: no-repeat center left url(logo.png);
-    background-size: 60px;
-    padding: 15px 0 15px 70px;
+    background: none;
+    padding: 15px 0;
     line-height: 23px;
     font-weight: 500;
     margin-right: 10px;
@@ -91,11 +90,6 @@ $header-brand-color: #c0c0c0;// Orange
     &.active {
         pointer-events: none;
     }
-
-    @include media-query($on-palm) {
-        margin-right: 50px;
-    }
-    transition: font-size 0.25s ease;
 }
 .site-header.shrink .site-title {
   font-size: 1.2rem;
