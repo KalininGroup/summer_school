@@ -572,10 +572,10 @@ ul.grid {
   transition: stroke-dashoffset 0.1s linear;
 }
 
-#backToTop span {
+#arrowIcon {
   position: relative;
   z-index: 2;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1;
+  width: 24px;
+  height: 24px;
+  transform: rotate(90deg);
 }
