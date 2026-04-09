@@ -265,9 +265,10 @@ June 22-26, 2026 · Knoxville, Tennessee
       <p>Colin Ophus (Stanford)</p>
     </div>    
     <div class="tutorials-col">
+      <p>Sheryl Sanchez</p>
       <p>Austin Houston</p>
-      <p>Boris Slautin</p>
       <p>Elizabeth Heon</p>
+      <p>Boris Slautin</p>
     </div>    
   </div> 
   
