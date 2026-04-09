@@ -92,19 +92,6 @@ menu_icon: house-door
   color: #1d2a56;
 }
 
-/* Mobile scaling */
-@media (max-width: 700px) {
-  .animated-title {
-    font-size: 2rem;
-  }
-  .subtitle {
-    font-size: 1.1rem;
-  }
-  .institution-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* Tutorials card layout */
 .tutorials-card {
   padding: 20px 24px;
@@ -129,13 +116,6 @@ menu_icon: house-door
   font-size: 1rem;
   color: #333;
   font-weight: 500;
-}
-
-/* Mobile: switch to 1 column */
-@media (max-width: 700px) {
-  .tutorials-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
   .participation-card {
@@ -165,6 +145,22 @@ menu_icon: house-door
 
 .reg-link:hover {
   text-decoration: underline;
+}
+
+  /* Mobile scaling */
+@media (max-width: 700px) {
+  .animated-title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  .institution-grid {
+    grid-template-columns: 1fr;
+  }
+  .tutorials-grid {
+    grid-template-columns: 1fr;
+  }
 }
   
 </style>
