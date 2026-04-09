@@ -530,11 +530,11 @@ ul.grid {
   height: 46px;
   border-radius: 50%;
     
-  background: #1d1d1d;
+  background: rgba(29, 29, 29, 0.75);
   backdrop-filter: blur(8px);         /* frosted glass */
   -webkit-backdrop-filter: blur(8px);
     
-  color: white;
+  color: #c3c3c3;
   border: 1px solid rgba(255,255,255,0.08);
     
   cursor: pointer;
@@ -549,7 +549,7 @@ ul.grid {
 }
 
 #backToTop:hover {
-  background: #1d1d1d;
+  background: rgba(29, 29, 29, 0.9);
   transform: translateY(-2px);
 }
 
@@ -575,7 +575,7 @@ ul.grid {
 #backToTop span {
   position: relative;
   z-index: 2;
-  font-size: 24px;
-  font-weight: 900;
+  font-size: 22px;
+  font-weight: 700;
   line-height: 1;
 }
