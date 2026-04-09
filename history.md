@@ -115,6 +115,14 @@ menu_icon: collection
        GitHub
     </a> 
   </p>
+
+  <p>
+    The concise overview of the hackathon is available in this 
+    <a href="https://iopscience.iop.org/article/10.1088/2632-2153/ae1f5d"
+       target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
+       <i>Machine Learning: Science and Technology</i> article
+    </a> 
+  </p>
 </div>
 
 <div class="section-card">
