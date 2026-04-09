@@ -521,13 +521,24 @@ ul.grid {
   color: #1d2a56;
 }
 
+
+.ring-wrapper {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
 /* Back to Top Button */
 #backToTop {
   position: fixed;
-  bottom: 24px;
-  right: 24px;
-  width: 46px;
-  height: 46px;
+  bottom: 30px;
+  right: 30px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
     
   background: rgba(29, 29, 29, 0.75);
@@ -539,7 +550,7 @@ ul.grid {
     
   cursor: pointer;
     
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
     
@@ -555,17 +566,14 @@ ul.grid {
 
 #progressRing {
   position: absolute;
-
-  /* Hard center inside the button */
+  width: 46px;
+  height: 46px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
-
-  /* Prevent the arrow’s bounding box from affecting centering */
   transform-origin: center center;
   pointer-events: none;
 }
-
 
 /* The ring itself */
 #backToTop circle {
@@ -579,9 +587,8 @@ ul.grid {
 }
 
 #arrowIcon {
-  position: relative;
+  width: 64px;
+  height: 64px;
   z-index: 2;
-  width: 24px;
-  height: 24px;
-  transform: rotate(90deg);
+  pointer-events: none;
 }
