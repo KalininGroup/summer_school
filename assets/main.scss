@@ -124,6 +124,18 @@ h1.secondary {
     }
 }
 
+@media (max-width: 700px) {
+  .site-title {
+    flex: 1 1 auto;   // allow title to grow and wrap
+    min-width: 0;     // REQUIRED so flexbox allows wrapping
+    margin-right: 10px;
+  }
+
+  .site-nav {
+    flex: 0 0 auto;   // keep nav button fixed on the right
+  }
+}
+
 .aside {
     margin: 0.5*$spacing-unit 0 0.5*$spacing-unit 0.5*$spacing-unit;
     padding: 0.85*$spacing-unit 0.75*$spacing-unit;
