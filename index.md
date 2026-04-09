@@ -74,6 +74,7 @@ menu_icon: house-door
   padding: 18px 14px;
   text-align: center;
   box-shadow: 0 1px 2px rgba(16,24,40,.04);
+}
 
 .institution-card img {
   max-width: 80px;
