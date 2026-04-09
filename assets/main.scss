@@ -564,6 +564,9 @@ ul.grid {
   /* Prevent the arrow’s bounding box from affecting centering */
   transform-origin: center center;
   pointer-events: none;
+  
+  top: calc(50% + 1px);
+  left: calc(50% + 1px);
 }
 
 
