@@ -4,6 +4,12 @@ menu_title: Program
 menu_icon: clock
 ---
 
+.schedule-footnote {
+  font-size: 0.85rem;
+  color: #475569;
+  margin-top: 1rem;
+  font-style: italic;
+}
 
   <!-- ===================== DAY 1 ===================== -->
 
@@ -26,7 +32,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>10:00 AM</div>
     <div>10:50 AM</div>
-    <div class="schedule-title">Remote Aberration Correction in STEM — <span class="schedule-instructor">Duscher, Houston</span></div>
+    <div class="schedule-title">Remote Aberration Correction in STEM — <span class="schedule-instructor">Duscher, Houston, Pratiush</span></div>
   </div>
 
   <div class="schedule-row">
@@ -38,7 +44,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>11:10 AM</div>
     <div>12:00 PM</div>
-    <div class="schedule-title">Simulation of Ronchigrams [Participant computer] — <span class="schedule-instructor">Duscher</span></div>
+    <div class="schedule-title">Simulation of Ronchigrams [Participant computer*] — <span class="schedule-instructor">Duscher</span></div>
   </div>
 
   <div class="schedule-row">
@@ -68,7 +74,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>3:10 PM</div>
     <div>4:00 PM</div>
-    <div class="schedule-title">Physics from STEM data [Participant computer] — <span class="schedule-instructor">Kalinin, Houston</span></div>
+    <div class="schedule-title">Physics from STEM data [Participant computer*] — <span class="schedule-instructor">Kalinin, Houston</span></div>
   </div>
 
   <div class="schedule-row">
@@ -119,7 +125,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>1:00 PM</div>
     <div>2:00 PM</div>
-    <div class="schedule-title">Analyzing Diffraction Pattern [Participant computer] — <span class="schedule-instructor">Duscher, Houston</span></div>
+    <div class="schedule-title">Analyzing Diffraction Pattern [Participant computer*] — <span class="schedule-instructor">Duscher, Houston</span></div>
   </div>
 
   <div class="schedule-row">
@@ -176,7 +182,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>11:10 AM</div>
     <div>12:00 PM</div>
-    <div class="schedule-title">Analysis of EDS [Participant computer] — <span class="schedule-instructor">Duscher</span></div>
+    <div class="schedule-title">Analysis of EDS [Participant computer*] — <span class="schedule-instructor">Duscher</span></div>
   </div>
 
   <div class="schedule-row">
@@ -194,7 +200,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>2:00 PM</div>
     <div>2:50 PM</div>
-    <div class="schedule-title">Conventional Analysis of EELS [Participant computer] — <span class="schedule-instructor">Duscher</span></div>
+    <div class="schedule-title">Conventional Analysis of EELS [Participant computer*] — <span class="schedule-instructor">Duscher</span></div>
   </div>
 
   <div class="schedule-row">
@@ -212,7 +218,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>4:00 PM</div>
     <div>5:00 PM</div>
-    <div class="schedule-title">Hackathon 3: ML‑Enhanced Analysis of EELS [Participant computer] — <span class="schedule-instructor">Kalinin</span></div>
+    <div class="schedule-title">Hackathon 3: ML‑Enhanced Analysis of EELS [Participant computer*] — <span class="schedule-instructor">Kalinin</span></div>
   </div>
 
 </div>
@@ -332,7 +338,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>2:00 PM</div>
     <div>2:50 PM</div>
-    <div class="schedule-title">AE STEM for Materials Exploration — <span class="schedule-instructor">Slautin</span></div>
+    <div class="schedule-title">AE Microscopy for Materials Exploration — <span class="schedule-instructor">Slautin</span></div>
   </div>
 
   <div class="schedule-row">
@@ -360,3 +366,15 @@ menu_icon: clock
   </div>
 
 </div>
+
+<p class="schedule-footnote">
+  * A link to the Jupyter Notebook will be provided for participants to run it either in their local Python environment or in Google Colab.
+</p>
+
+<p class="schedule-footnote">  
+  <a href="https://github.com/KalininGroup/summer_school/blob/main/assets/test_py_env.ipynb"
+       target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
+       Here 
+  </a>
+  you can view an example notebook.
+</p>
