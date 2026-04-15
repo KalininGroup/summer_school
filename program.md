@@ -14,7 +14,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>8:30 AM</div>
     <div>9:00 AM</div>
-    <div class="schedule-title">Welcome and Introduction — <span class="schedule-instructor">Phipps, Massey, Kalinin</span></div>
+    <div class="schedule-title">Welcome and Introduction — <span class="schedule-instructor">Phipps, Kalinin</span></div>
   </div>
 
   <div class="schedule-row">
