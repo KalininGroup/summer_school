@@ -4,12 +4,14 @@ menu_title: Program
 menu_icon: clock
 ---
 
-.schedule-footnote {
-  font-size: 0.85rem;
-  color: #475569;
-  margin-top: 1rem;
-  font-style: italic;
-}
+<style>
+  .schedule-footnote {
+    font-size: 0.85rem;
+    color: #475569;
+    margin-top: 1rem;
+    font-style: italic;
+    }
+</style>
 
   <!-- ===================== DAY 1 ===================== -->
 
