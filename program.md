@@ -1,5 +1,5 @@
 ---
-title: Preliminary program
+title: Summer school program
 menu_title: Program
 menu_icon: clock
 ---
