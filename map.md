@@ -143,7 +143,9 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 // -------------------------
 // 4. Marker clustering
 // -------------------------
-const markers = L.markerClusterGroup();
+const markers = L.markerClusterGroup({
+  showCoverageOnHover: false
+});
 
 // Add all regular markers
 locations.forEach(loc => {
