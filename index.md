@@ -77,8 +77,8 @@ menu_icon: house-door
 }
 
 .institution-card img {
-  max-width: 80px;
-  max-height: 60px;
+  max-width: 120px;
+  max-height: 80px;
   width: auto;
   height: auto;
   margin-top: 10px;
@@ -119,7 +119,7 @@ menu_icon: house-door
   font-weight: 500;
 }
 
-  .participation-card {
+.participation-card {
   padding: 20px 24px;
 }
 
@@ -162,80 +162,84 @@ menu_icon: house-door
   .tutorials-grid {
     grid-template-columns: 1fr;
   }
+  .institution-card img {
+    max-width: 110px;
+    max-height: 70px;
+  }
 }
 
-  .utk-info {
-    margin: 1.5rem 0;
-    padding: 1rem 1.2rem;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background: #fafafa;
-  }
-  .utk-info summary {
-    cursor: pointer;
-    font-size: 1.05rem;
-  }
+.utk-info {
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fafafa;
+}
+.utk-info summary {
+  cursor: pointer;
+  font-size: 1.05rem;
+}
 
-  .utk-info code:hover {
-    background: #e6e6e6;
-  }    
+.utk-info code:hover {
+  background: #e6e6e6;
+}    
 
-  .copy-email {
-    cursor: pointer;
-    padding: 2px 4px;
-    background: #f0f0f0;
-    border-radius: 4px;
-    position: relative;
-  }
+.copy-email {
+  cursor: pointer;
+  padding: 2px 4px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  position: relative;
+}
 
-  .copy-email:hover {
-    background: #e6e6e6;
-  }
-  
-  .utk-float-btn {
-    position: fixed;
-    bottom: 80px;
-    right: 20px;
-  
-    /* Glacier glass effect */
-    background: rgba(29, 29, 29, 0.55); /* same tone as your header */
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-  
-    color: #cfcfcf !important; /* soft glacier text */
-    padding: 10px 18px;
-    border-radius: 10px;
-    font-weight: 600;
-    text-decoration: none;
-  
-    border: 1px solid rgba(255,255,255,0.08);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-  
-    z-index: 999;
-    transition: background 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
-  }
+.copy-email:hover {
+  background: #e6e6e6;
+}
 
-  .utk-float-btn:hover {
-    background: rgba(29, 29, 29, 0.75);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.35);
-  }
+.utk-float-btn {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
 
-  .copied-tooltip {
-    position: absolute;
-    top: -28px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #333;
-    color: #fff;
-    padding: 3px 8px;
-    font-size: 0.75rem;
-    border-radius: 4px;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s ease-out;
-    white-space: nowrap;
-  }
+  /* Glacier glass effect */
+  background: rgba(29, 29, 29, 0.55); /* same tone as your header */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  color: #cfcfcf !important; /* soft glacier text */
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+
+  z-index: 999;
+  transition: background 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
+}
+
+.utk-float-btn:hover {
+  background: rgba(29, 29, 29, 0.75);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+}
+
+.copied-tooltip {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 3px 8px;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-out;
+  white-space: nowrap;
+}
   
 </style>
 
@@ -437,10 +441,10 @@ June 22-26, 2026 · Knoxville, Tennessee
   </p>
 
   <p>
-    Registration for the course requires <strong>instructor consent</strong>. Please email Prof. Gerd Duscher:
+    Registration for the course requires <strong>instructor consent</strong>. Please email Prof. Gerd Duscher to enroll in this special course:
     <code class="copy-email"
           onclick="navigator.clipboard.writeText('gduscher@utk.edu'); showCopiedTooltip(event);">
       gduscher@utk.edu
-    </code>.
+    </code>
   </p>
 </div>
