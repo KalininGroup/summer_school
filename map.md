@@ -7,6 +7,24 @@ permalink: /sites/
 published: true
 ---
 
+<style>
+  /* Reduce the giant gap above the map */
+  #map {
+    margin-top: 0 !important;
+  }
+
+  /* Remove extra spacing inserted by the theme */
+  .page-content > h1 + #map,
+  .page-content > h2 + #map {
+    margin-top: 0 !important;
+  }
+
+  /* Optional: tighten the whole page top padding */
+  .page-content {
+    padding-top: 10px !important;
+  }
+</style>
+
 
 <div id="attendee-map" style="height: 500px; margin-bottom: 2rem;"></div>
 
