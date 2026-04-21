@@ -144,7 +144,15 @@ const utkIcon = new L.Icon({
 });
 
 // -------------------------
-// 3. Initialize map
+// 3. UTK special marker object
+// -------------------------
+const utkMarker = {
+  name: "University of Tennessee, Knoxville (Host Site)",
+  coords: [35.9545, -83.9295]
+};
+
+// -------------------------
+// 4. Initialize map
 // -------------------------
 const map = L.map("map").setView([20, 0], 2);
 
@@ -153,7 +161,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 // -------------------------
-// 4. Marker clustering
+// 5. Marker clustering
 // -------------------------
 const markers = L.markerClusterGroup({
   showCoverageOnHover: false
