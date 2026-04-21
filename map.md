@@ -70,7 +70,7 @@ const locations = [
 
   // --- Europe ---
   { name: "TESCAN GROUP, Brno, Czech Republic", coords: [49.19694, 16.54759] },
-  { name: "BeamShape, Brno, Czech Republic", coords: [49.1951, 16.6068] },
+  { name: "BeamShape, Brno, Czech Republic", coords: [49.23375, 16.57246] },
   { name: "CEITEC - Brno University of Technology", coords: [49.2267, 16.5950] },
   { name: "University of Cambridge", coords: [52.2043, 0.1149] },
   { name: "Imperial College London", coords: [51.4988, -0.1749] },
@@ -175,9 +175,9 @@ const locations = [
   { name: "Stanford University", coords: [37.4275, -122.1697] },
   { name: "Caltech", coords: [34.1377, -118.1253] },
   { name: "Texas A&M University", coords: [30.6150, -96.3423] },
-  { name: "Applied Materials, Santa Clara, California", coords: [37.3541, -121.9552] },
-  { name: "Tata Consultancy Services, Dallas, Texas", coords: [32.7767, -96.7970] },
-  { name: "Unilever R&D, Trumbull, Connecticut", coords: [41.2429, -73.2007] },
+  { name: "Applied Materials, Santa Clara, California", coords: [37.40342, -121.97589] },
+  { name: "Tata Consultancy Services, Dallas, Texas", coords: [33.07053, -96.82539] },
+  { name: "Unilever R&D, Trumbull, Connecticut", coords: [41.24293, -73.20066] },
   { name: "Physical Electronics, Chanhassen, Minnesota", coords: [44.8586, -93.5300] },
   { name: "Recipharm Advanced Bio, Woburn, Massachusetts", coords: [42.4793, -71.1523] },
   { name: "Lila Sciences, Cambridge, Massachusetts", coords: [42.3663, -71.0810] },
@@ -199,10 +199,10 @@ const locations = [
   { name: "Argonne National Laboratory", coords: [41.7130, -87.9830] },
   { name: "Lawrence Berkeley National Laboratory", coords: [37.8730, -122.2500] },
   { name: "Pacific Northwest National Laboratory", coords: [46.3410, -119.2780] },
-  { name: "3M, Minnesota", coords: [44.9537, -93.0899] },
+  { name: "3M, Minnesota", coords: [44.95366, -93.08994] },
   { name: "Micron Technology, Boise, Idaho", coords: [43.5636, -116.1990] },
   { name: "Onsemi, Phoenix, Arizona", coords: [33.4484, -112.0740] },
-  { name: "Absolics, Covington, Georgia", coords: [33.5968, -83.8602] },
+  { name: "Absolics, Covington, Georgia", coords: [33.61806, -83.81776] },
 
   // --- Oceania ---
   { name: "Australian National University", coords: [ -35.2777, 149.1185 ] }
