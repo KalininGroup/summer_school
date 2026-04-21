@@ -3,7 +3,7 @@ layout: page
 title: Attendee Map
 menu_title: Attendee Map
 menu_icon: geo-alt
-permalink: /sites/
+permalink: /map/
 published: true
 ---
 
