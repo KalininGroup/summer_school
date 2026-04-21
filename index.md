@@ -163,8 +163,93 @@ menu_icon: house-door
     grid-template-columns: 1fr;
   }
 }
+
+  .utk-info {
+    margin: 1.5rem 0;
+    padding: 1rem 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+  .utk-info summary {
+    cursor: pointer;
+    font-size: 1.05rem;
+  }
+
+  .utk-info code:hover {
+    background: #e6e6e6;
+  }    
+
+  .copy-email {
+    cursor: pointer;
+    padding: 2px 4px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .copy-email:hover {
+    background: #e6e6e6;
+  }
+  
+  .utk-float-btn {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: #ff8200; /* UTK orange */
+    color: white !important;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    z-index: 999;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .utk-float-btn:hover {
+    background: #cc6900;
+    transform: translateY(-2px);
+  }
+
+  .copied-tooltip {
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 3px 8px;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-out;
+    white-space: nowrap;
+  }
   
 </style>
+
+
+<script>
+function showCopiedTooltip(event) {
+  const el = event.target;
+
+  const tooltip = document.createElement('div');
+  tooltip.className = 'copied-tooltip';
+  tooltip.textContent = 'Copied!';
+  el.appendChild(tooltip);
+
+  requestAnimationFrame(() => {
+    tooltip.style.opacity = '1';
+  });
+
+  setTimeout(() => {
+    tooltip.style.opacity = '0';
+    setTimeout(() => tooltip.remove(), 200);
+  }, 1000);
+}
+</script>
 
 
 <h1 class="animated-title">
@@ -329,4 +414,24 @@ June 22-26, 2026 · Knoxville, Tennessee
     <img src="{{ '/assets/mat3ra.png'| relative_url }}" alt="Mat3ra logo">
   </div>
 
+</div>
+
+<!-- Floating button -->
+<a href="/summer_school/#utk-special" class="utk-float-btn">UTK Students Special</a>
+
+<div id="utk-special" class="utk-block">
+  <h2>UTK Students – Special 3‑Credit Option</h2>
+  <p>
+    UTK students may enroll in <strong>MSE 676 – Special Topic: ML/AI for Electron Microscopy (3 credit hours)</strong>,
+    which is linked to the one‑week Summer School held June 22–26, 2026. Because the workshop occurs
+    <strong>after the add/drop deadline</strong>, students <strong>cannot drop the course once the workshop begins</strong>.
+  </p>
+
+  <p>
+    Registration for the course requires <strong>instructor consent</strong>. Please email Prof. Gerd Duscher:
+    <code class="copy-email"
+          onclick="navigator.clipboard.writeText('gduscher@utk.edu'); showCopiedTooltip(event);">
+      gduscher@utk.edu
+    </code>.
+  </p>
 </div>
