@@ -37,10 +37,62 @@ event_status:
   }
 
   .utk-info code:hover {
-   background: #e6e6e6;
+    background: #e6e6e6;
+  }    
+
+  .copy-email {
+    cursor: pointer;
+    padding: 2px 4px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .copy-email:hover {
+    background: #e6e6e6;
+  }
+  
+  /* Tooltip styling */
+  .copied-tooltip {
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 3px 8px;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-out;
+    white-space: nowrap;
   }
 
 </style>
+
+<script>
+function showCopiedTooltip(event) {
+  const el = event.target;
+
+  // Create tooltip
+  const tooltip = document.createElement('div');
+  tooltip.className = 'copied-tooltip';
+  tooltip.textContent = 'Copied!';
+  el.appendChild(tooltip);
+
+  // Fade in
+  requestAnimationFrame(() => {
+    tooltip.style.opacity = '1';
+  });
+
+  // Remove after 1 second
+  setTimeout(() => {
+    tooltip.style.opacity = '0';
+    setTimeout(() => tooltip.remove(), 200);
+  }, 1000);
+}
+</script>
 
 Please complete the form below to register for the **Summer School on ML for EM**.
 
@@ -51,9 +103,10 @@ Please complete the form below to register for the **Summer School on ML for EM*
   </p>
   <p>
     Registration for the course requires <strong>instructor consent</strong>. Please email Prof. Gerd Duscher: 
-    <code onclick="navigator.clipboard.writeText('gduscher@utk.edu')" style="cursor:pointer; padding:2px 4px; background:#f0f0f0; border-radius:4px;">
+    <code class="copy-email"
+      onclick="navigator.clipboard.writeText('gduscher@utk.edu'); showCopiedTooltip(event);">
       gduscher@utk.edu
-    </code>.
+    </code>
   </p>
 </details>
 
