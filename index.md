@@ -196,20 +196,29 @@ menu_icon: house-door
     position: fixed;
     bottom: 80px;
     right: 20px;
-    background: #ff8200; /* UTK orange */
-    color: white !important;
-    padding: 10px 16px;
-    border-radius: 8px;
+  
+    /* Glacier glass effect */
+    background: rgba(29, 29, 29, 0.55); /* same tone as your header */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  
+    color: #cfcfcf !important; /* soft glacier text */
+    padding: 10px 18px;
+    border-radius: 10px;
     font-weight: 600;
     text-decoration: none;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  
     z-index: 999;
-    transition: background 0.2s ease, transform 0.2s ease;
+    transition: background 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
   }
 
   .utk-float-btn:hover {
-    background: #cc6900;
+    background: rgba(29, 29, 29, 0.75);
     transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.35);
   }
 
   .copied-tooltip {
