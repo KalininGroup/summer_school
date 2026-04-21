@@ -120,6 +120,9 @@ const locations = [
   { name: "Stanford University", coords: [37.4275, -122.1697] },
   { name: "Caltech", coords: [34.1377, -118.1253] },
   { name: "Texas A&M University", coords: [30.6150, -96.3423] }
+  { name: "Oak Ridge National Laboratory (ORNL), Tennessee, USA", coords: [35.9311679, -84.3101161]
+}
+
 ];
 
 // -------------------------
