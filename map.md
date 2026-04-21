@@ -26,8 +26,6 @@ published: true
 </style>
 
 
-<div id="attendee-map" style="height: 500px; margin-bottom: 2rem;"></div>
-
 <link
   rel="stylesheet"
   href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
