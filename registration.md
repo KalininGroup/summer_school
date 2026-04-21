@@ -110,6 +110,8 @@ Please complete the form below to register for the **Summer School on ML for EM*
   </p>
 </details>
 
+<p><strong>Note:</strong> After submitting the form, you will <em>not</em> receive an automatic confirmation email. All registered participants will receive further information about the Summer School closer to the event.</p>
+
 <div class="reg-card"> 
   <iframe    src="https://docs.google.com/forms/d/e/1FAIpQLScWmn_l6OW9iWh7KApeOGABen91gt8_nq_MpcMD97Isku7ngg/viewform?embedded=true"
     width="100%"
