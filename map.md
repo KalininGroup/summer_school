@@ -58,8 +58,12 @@ published: true
     font-size: 2.2rem;
     font-weight: 700;
     margin: 12px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
   }
-
+  
 </style>
 
 
