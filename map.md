@@ -44,7 +44,7 @@ published: true
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
-<script>
+<script>    
 // -------------------------
 // 1. Locations array
 // -------------------------
@@ -123,13 +123,25 @@ const locations = [
 ];
 
 // -------------------------
-// 2. UTK special marker
+// 2. Marker icons
 // -------------------------
-const utkMarker = {
-  name: "University of Tennessee, Knoxville (Host Site)",
-  coords: [35.9545, -83.9295],
-  color: "#FF8200" // UTK Orange
-};
+const blueIcon = new L.Icon({
+  iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png",
+  shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
+const utkIcon = new L.Icon({
+  iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png",
+  shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
 
 // -------------------------
 // 3. Initialize map
@@ -149,25 +161,15 @@ const markers = L.markerClusterGroup({
 
 // Add all regular markers
 locations.forEach(loc => {
-  const marker = L.circleMarker(loc.coords, {
-    radius: 6,
-    color: "#1d4ed8",
-    fillColor: "#3b82f6",
-    fillOpacity: 0.8
-  }).bindPopup(loc.name);
-
+  const marker = L.marker(loc.coords, { icon: blueIcon }).bindPopup(loc.name);
   markers.addLayer(marker);
 });
 
 // Add UTK highlighted marker
-L.circleMarker(utkMarker.coords, {
-  radius: 10,
-  color: utkMarker.color,
-  fillColor: utkMarker.color,
-  fillOpacity: 0.9
-})
-.bindPopup(utkMarker.name)
-.addTo(map);
+L.marker(utkMarker.coords, { icon: utkIcon })
+  .bindPopup(utkMarker.name)
+  .addTo(map);
 
 map.addLayer(markers);
+
 </script>
