@@ -430,6 +430,7 @@ June 22-26, 2026 · Knoxville, Tennessee
 </div>
 
 <!-- Floating button -->
+<!--
 <a href="/summer_school/#utk-special" class="utk-float-btn">UTK Students Special</a>
 
 <div id="utk-special" class="utk-block">
@@ -448,3 +449,4 @@ June 22-26, 2026 · Knoxville, Tennessee
     </code>
   </p>
 </div>
+-->
