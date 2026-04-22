@@ -322,11 +322,22 @@ const utkMarker = {
 // -------------------------
 // 4. Initialize map
 // -------------------------
-const map = L.map("map").setView([20, 0], 2);
+const map = L.map('map', {
+  center: [20, 0],
+  zoom: 2,
+  minZoon: 2,
+  worldCopyJump: false,
+  maxBoundsViscosity: 1.0,
+  maxBounds: [[-85, -180], [85, 180]],
+  maxBoundsViscosity: 1.0,
+  noWrap: true
+});
 
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  maxZoom: 18,
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  noWrap: true,
+  bounds: [[-85, -180], [85, 180]]
 }).addTo(map);
+
 
 // -------------------------
 // 5. Marker clustering
