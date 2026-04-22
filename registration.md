@@ -96,6 +96,7 @@ function showCopiedTooltip(event) {
 
 Please complete the form below to register for the **Summer School on ML for EM**.
 
+<!--
 <details class="utk-info">
   <summary><strong>Important Information for UTK Students (3‑CH Option)</strong></summary>
   <p>
@@ -109,6 +110,7 @@ Please complete the form below to register for the **Summer School on ML for EM*
     </code>
   </p>
 </details>
+-->
 
 <p><strong>Note:</strong> After submitting the form, you will <em>not</em> receive an automatic confirmation email. All registered participants will receive further information about the Summer School closer to the event.</p>
 
