@@ -252,6 +252,7 @@ const locations = [
   { name: "Institute of Nano Science and Technology, Mohali, India", coords: [30.7046, 76.7179] },
   { name: "RMIT University Vietnam", coords: [10.7295, 106.6932] },
   { name: "Bahauddin Zakariya University, Pakistan", coords: [30.2550, 71.5130] },
+  { name: "Bangladesh University of Engineering and Technology (BUET), Dhaka", coords: [23.7276, 90.3925] },
 
   // --- North America ---
   { name: "TESCAN Tempe, Arizona, USA", coords: [33.4297641, -111.954382] },
@@ -326,6 +327,7 @@ const locations = [
   { name: "University of Illinois Urbana-Champaign, USA", coords: [40.1020, -88.2272] },
   { name: "Oregon State University, Corvallis, Oregon", coords: [44.5646, -123.2620] },
   { name: "Cinvestav, Mexico City, Mexico", coords: [19.5033, -99.1467] },
+  { name: "University of Louisiana at Lafayette, USA", coords: [30.2130, -92.0198] },
 
   // --- South America ---
   { name: "Federal University of Rio de Janeiro (UFRJ), Brazil", coords: [-22.8600, -43.2270] },
