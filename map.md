@@ -149,6 +149,7 @@ const locations = [
   { name: "Qatar University", coords: [25.3752, 51.4903] },
   { name: "University of Doha for Science and Technology", coords: [25.3211, 51.4889] },
   { name: "KFUPM - King Fahd University of Petroleum and Minerals", coords: [26.3090, 50.1386] },
+  { name: "Hamad Bin Khalifa University (HBKU), Qatar", coords: [25.3148, 51.4459] },
 
   // --- Europe ---
   { name: "TESCAN GROUP, Brno, Czech Republic", coords: [49.19694, 16.54759] },
@@ -181,6 +182,17 @@ const locations = [
   { name: "University College Dublin", coords: [53.3080, -6.2230] },
   { name: "University of Rostock", coords: [54.0924, 12.0991] },
   { name: "University of Girona", coords: [41.9831, 2.8249] },
+  { name: "Max Planck Institute for Iron Research, Düsseldorf, Germany", coords: [51.23890, 6.79240] },
+  { name: "Université d'Artois, France", coords: [50.4475, 2.7253] },
+  { name: "TU Berlin, Germany", coords: [52.5122, 13.3264] },
+  { name: "University of Silesia in Katowice, Poland", coords: [50.2590, 19.0216] },
+  { name: "CETIM, France", coords: [47.9940, 0.1920] },
+  { name: "INL - International Iberian Nanotechnology Laboratory, Braga, Portugal", coords: [41.5610, -8.3960] },
+  { name: "DTU - Technical University of Denmark", coords: [55.7858, 12.5214] },
+  { name: "DFM - Danish National Metrology Institute, Denmark", coords: [55.7850, 12.5210] },
+  { name: "TU Darmstadt, Germany", coords: [49.8728, 8.6512] },
+  { name: "University of Zaragoza - Advanced Microscopy Laboratory, Spain", coords: [41.6835, -0.8880] },
+  { name: "CuspAI, Cambridge, United Kingdom", coords: [52.19440, 0.13359] },
 
   // --- Asia ---
   { name: "KAIST, South Korea", coords: [36.3725, 127.3608] },
@@ -229,6 +241,17 @@ const locations = [
   { name: "Sister Nivedita University", coords: [22.5867, 88.4173] },
   { name: "Navsari Agricultural University", coords: [20.9467, 72.9520] },
   { name: "DSATM Bangalore", coords: [12.8440, 77.6770] },
+  { name: "Institute of Science Tokyo, Japan", coords: [35.63190, 139.68540] },
+  { name: "Harish Chandra Research Institute, Prayagraj, India", coords: [25.4300, 81.7700] },
+  { name: "Aganitha AI, Hyderabad, India", coords: [17.4483, 78.3900] },
+  { name: "Jashore University of Science and Technology, Bangladesh", coords: [23.1900, 89.2100] },
+  { name: "Jiangsu University of Science and Technology, China", coords: [32.2040, 119.4550] },
+  { name: "NIMS - National Institute for Materials Science, Tsukuba, Japan", coords: [36.0653, 140.1218] },
+  { name: "IISER Thiruvananthapuram, India", coords: [8.5241, 76.9366] },
+  { name: "Sri Venkateswara College of Engineering, Tirupati, India", coords: [13.6288, 79.4192] },
+  { name: "Institute of Nano Science and Technology, Mohali, India", coords: [30.7046, 76.7179] },
+  { name: "RMIT University Vietnam", coords: [10.7295, 106.6932] },
+  { name: "Bahauddin Zakariya University, Pakistan", coords: [30.2550, 71.5130] },
 
   // --- North America ---
   { name: "TESCAN Tempe, Arizona, USA", coords: [33.4297641, -111.954382] },
@@ -285,7 +308,30 @@ const locations = [
   { name: "Micron Technology, Boise, Idaho", coords: [43.5636, -116.1990] },
   { name: "Onsemi, Phoenix, Arizona", coords: [33.4484, -112.0740] },
   { name: "Absolics, Covington, Georgia", coords: [33.61806, -83.81776] },
+  { name: "Missouri State University, Springfield, Missouri", coords: [37.1980, -93.2850] },
+  { name: "Missouri University of Science and Technology, Rolla, Missouri", coords: [37.9543, -91.7730] },
+  { name: "Stony Brook University, New York, USA", coords: [40.9120, -73.1230] },
+  { name: "George Washington University, Washington, DC", coords: [38.8997, -77.0470] },
+  { name: "Northwestern University, Evanston, Illinois", coords: [42.0565, -87.6753] },
+  { name: "University of Michigan, Ann Arbor, USA", coords: [42.2780, -83.7382] },
+  { name: "Western Illinois University, Macomb, Illinois", coords: [40.4668, -90.6710] },
+  { name: "Tulane University, New Orleans, Louisiana", coords: [29.9406, -90.1203] },
+  { name: "Florida International University, Miami, Florida", coords: [25.7570, -80.3730] },
+  { name: "The Aerospace Corporation, El Segundo, California", coords: [33.9164, -118.3830] },
+  { name: "Iowa State University, Ames, Iowa", coords: [42.0267, -93.6465] },
+  { name: "Purdue University Fort Wayne, Indiana", coords: [41.1230, -85.1080] },
+  { name: "San Jose State University, California", coords: [37.3352, -121.8811] },
+  { name: "University of Wyoming, Laramie, Wyoming", coords: [41.3114, -105.5863] },
+  { name: "Rensselaer Polytechnic Institute, Troy, New York", coords: [42.7302, -73.6788] },
+  { name: "University of Illinois Urbana-Champaign, USA", coords: [40.1020, -88.2272] },
+  { name: "Oregon State University, Corvallis, Oregon", coords: [44.5646, -123.2620] },
+  { name: "Cinvestav, Mexico City, Mexico", coords: [19.5033, -99.1467] },
 
+  // --- South America ---
+  { name: "Federal University of Rio de Janeiro (UFRJ), Brazil", coords: [-22.8600, -43.2270] },
+  { name: "SENAI, Brazil", coords: [-15.7934, -47.8825] },
+  { name: "Universidad de Chile, Santiago, Chile", coords: [-33.4570, -70.6630] },
+  
   // --- Oceania ---
   { name: "Australian National University", coords: [ -35.2777, 149.1185 ] }
 ];
