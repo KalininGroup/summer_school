@@ -193,6 +193,8 @@ const locations = [
   { name: "TU Darmstadt, Germany", coords: [49.8728, 8.6512] },
   { name: "University of Zaragoza - Advanced Microscopy Laboratory, Spain", coords: [41.6835, -0.8880] },
   { name: "CuspAI, Cambridge, United Kingdom", coords: [52.19440, 0.13359] },
+  { name: "University of Groningen, Netherlands", coords: [53.21965, 6.56296] },
+  { name: "Strikersoft, Sollentuna, Sweden", coords: [59.40539, 17.94564] },
 
   // --- Asia ---
   { name: "KAIST, South Korea", coords: [36.3725, 127.3608] },
@@ -253,6 +255,7 @@ const locations = [
   { name: "RMIT University Vietnam", coords: [10.7295, 106.6932] },
   { name: "Bahauddin Zakariya University, Pakistan", coords: [30.2550, 71.5130] },
   { name: "Bangladesh University of Engineering and Technology (BUET), Dhaka", coords: [23.7276, 90.3925] },
+  { name: "PSG Institute of Advanced Studies, Coimbatore, India", coords: [11.01842, 76.97252] },
 
   // --- North America ---
   { name: "TESCAN Tempe, Arizona, USA", coords: [33.4297641, -111.954382] },
@@ -328,12 +331,15 @@ const locations = [
   { name: "Oregon State University, Corvallis, Oregon", coords: [44.5646, -123.2620] },
   { name: "Cinvestav, Mexico City, Mexico", coords: [19.5033, -99.1467] },
   { name: "University of Louisiana at Lafayette, USA", coords: [30.2130, -92.0198] },
+  { name: "ArcelorMittal Global R&D, East Chicago, Indiana, USA", coords: [41.63990, -87.45463] },
+  { name: "University of Virginia, Charlottesville, USA", coords: [38.03367, -78.50793] },
 
   // --- South America ---
   { name: "Federal University of Rio de Janeiro (UFRJ), Brazil", coords: [-22.8600, -43.2270] },
   { name: "SENAI, Brazil", coords: [-15.7934, -47.8825] },
   { name: "Universidad de Chile, Santiago, Chile", coords: [-33.4570, -70.6630] },
-  
+  { name: "Usiminas, Ipatinga, Brazil", coords: [-19.46836, -42.53603] },
+
   // --- Oceania ---
   { name: "Australian National University", coords: [ -35.2777, 149.1185 ] }
 ];
