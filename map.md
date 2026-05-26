@@ -195,6 +195,9 @@ const locations = [
   { name: "CuspAI, Cambridge, United Kingdom", coords: [52.19440, 0.13359] },
   { name: "University of Groningen, Netherlands", coords: [53.21965, 6.56296] },
   { name: "Strikersoft, Sollentuna, Sweden", coords: [59.40539, 17.94564] },
+  { name: "Stockholm University, Sweden", coords: [59.36576, 18.05832] },
+  { name: "Linköping University, Sweden", coords: [58.39739, 15.57603] },
+  { name: "Universitat Politècnica de Catalunya (UPC), Barcelona, Spain", coords: [41.38739, 2.11309] },
 
   // --- Asia ---
   { name: "KAIST, South Korea", coords: [36.3725, 127.3608] },
@@ -333,6 +336,8 @@ const locations = [
   { name: "University of Louisiana at Lafayette, USA", coords: [30.2130, -92.0198] },
   { name: "ArcelorMittal Global R&D, East Chicago, Indiana, USA", coords: [41.63990, -87.45463] },
   { name: "University of Virginia, Charlottesville, USA", coords: [38.03367, -78.50793] },
+  { name: "ExxonMobil, Spring, Texas, USA", coords: [30.12863, -95.44147] },
+  { name: "Baylor University, Waco, Texas, USA", coords: [31.54930, -97.11400] },
 
   // --- South America ---
   { name: "Federal University of Rio de Janeiro (UFRJ), Brazil", coords: [-22.8600, -43.2270] },
