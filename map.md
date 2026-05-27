@@ -338,6 +338,8 @@ const locations = [
   { name: "University of Virginia, Charlottesville, USA", coords: [38.03367, -78.50793] },
   { name: "ExxonMobil, Spring, Texas, USA", coords: [30.12863, -95.44147] },
   { name: "Baylor University, Waco, Texas, USA", coords: [31.54930, -97.11400] },
+  { name: "Southwest Research Institute, San Antonio, Texas, USA", coords: [29.45163, -98.61347] },
+
 
   // --- South America ---
   { name: "Federal University of Rio de Janeiro (UFRJ), Brazil", coords: [-22.8600, -43.2270] },
