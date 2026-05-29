@@ -660,21 +660,46 @@ ul.grid {
   width: auto;
 }
 
+/* --- Registration Notice Box --- */
 .notice-box {
   background: #fff4e6; /* soft UTK orange tint */
   border-left: 5px solid #ff8200; /* UTK orange accent */
-  padding: 1rem 1.25rem;
-  margin: 1.5rem 0;
-  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0 2rem;
+  border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 .notice-box h3 {
   color: #ff8200;
   margin-top: 0;
+  margin-bottom: 0.75rem;
 }
 
 .notice-box p {
   margin: 0.5rem 0;
-  line-height: 1.5;
+  line-height: 1.55;
+}
+
+/* --- Registration Button --- */
+.notice-button-wrapper {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.notice-button {
+  display: inline-block;
+  background: #ff8200; /* UTK orange */
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.notice-button:hover {
+  background: #ffa64d; /* lighter UTK orange */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
