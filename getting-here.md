@@ -23,11 +23,36 @@ No parking pass is required. Free street parking is available throughout the UT 
 2641 Osprey Vista Way  
 Knoxville, TN 37920
 
-**Google Maps:**  
-[Open in Google Maps](https://maps.app.goo.gl/MaJQe8zMdnFSjaEz9)
+<div class="map-buttons">
+  <a class="map-button" href="https://www.google.com/maps/place/2641+Osprey+Vista+Way,+Knoxville,+TN+37920" target="_blank">
+    <img src="/summer_school/assets/icons/google-maps.svg" alt="Google Maps">
+    Open in Google Maps
+  </a>
 
-**Apple Maps:**  
-[Open in Apple Maps](https://maps.apple.com/?address=2641%20Osprey%20Vista%20Way,%20Knoxville,%20TN%2037920)
+  <a class="map-button" href="https://maps.apple.com/?address=2641%20Osprey%20Vista%20Way,%20Knoxville,%20TN%2037920" target="_blank">
+    <img src="/summer_school/assets/icons/apple-maps.svg" alt="Apple Maps">
+    Open in Apple Maps
+  </a>
+</div>
+
+<div class="directions-block">
+  <div class="directions-text">
+    The Institute for Advanced Materials & Manufacturing (IAMM) is located within the  
+    **UT Research Park at Cherokee Farm**, just across the river from the main UT campus.  
+    Free street parking is available throughout the Research Park — no parking pass required.
+  </div>
+
+  <div class="directions-map">
+    <iframe
+      width="100%"
+      height="100%"
+      style="border:0; border-radius:12px;"
+      loading="lazy"
+      allowfullscreen
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12761.999999!2d-83.9530!3d35.9426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885c3d4a01f31765%3A0xd5291b131177745b!2s2641%20Osprey%20Vista%20Way%2C%20Knoxville%2C%20TN%2037920!5e0!3m2!1sen!2sus!4v0000000000003">
+    </iframe>
+  </div>
+</div>
 
 ---
 
@@ -55,17 +80,17 @@ Below are step‑by‑step directions from the three most common starting points
 <div class="directions-block">
   <div class="directions-text">
 
-- Start at **1331 Circle Park Dr.**
-- Head southwest  
-- Turn right toward **Lake Loudon Blvd SW**  
-- Turn left onto **Lake Loudon Blvd SW**  
-- Turn right onto **Neyland Dr SW (TN‑158 W)**  
-- Turn right onto **Kingston Pike SW (US‑11/US‑70)**  
-- Take ramp onto **Alcoa Hwy (US‑129 S)**  
-- Turn right onto **Cherokee Farm Way**  
-- Turn left onto **Accelerator Way**  
-- Turn right onto **Osprey Vista Way**  
-- Turn right → IAMM HQ
+<p>- Start at **1331 Circle Park Dr.**</p>
+<p>- Head southwest  </p>
+<p>- Turn right toward **Lake Loudon Blvd SW**</p>
+<p>- Turn left onto **Lake Loudon Blvd SW**</p>
+<p>- Turn right onto **Neyland Dr SW (TN‑158 W)**</p>
+<p>- Turn right onto **Kingston Pike SW (US‑11/US‑70)**</p>
+<p>- Take ramp onto **Alcoa Hwy (US‑129 S)**</p>
+<p>- Turn right onto **Cherokee Farm Way**</p>
+<p>- Turn left onto **Accelerator Way**</p>
+<p>- Turn right onto **Osprey Vista Way**</p>
+<p>- Turn right → IAMM HQ</p>
 
   </div>
 
@@ -102,20 +127,20 @@ Below are step‑by‑step directions from the three most common starting points
 <div class="directions-block">
   <div class="directions-text">
 
-- Start at **2055 Alcoa Hwy**
-- Head northeast  
-- Turn left onto **W General Aviation Dr**  
-- Turn right onto **W General Aviation Dr**  
-- Turn right onto **General Aviation Dr**  
-- Turn left onto **Airport Hwy (US‑129 N)**  
-- Keep right toward Exit  
-- Turn left  
-- Turn right toward **Performance Way**  
-- Continue on Performance Way  
-- Turn right onto **Cherokee Farm Way**  
-- Turn left onto **Accelerator Way**  
-- Turn right onto **Osprey Vista Way**  
-- Turn right → IAMM HQ
+<p>- Start at **2055 Alcoa Hwy**</p>
+<p>- Head northeast</p>
+<p>- Turn left onto **W General Aviation Dr**</p>
+<p>- Turn right onto **W General Aviation Dr**</p>
+<p>- Turn right onto **General Aviation Dr**</p>
+<p>- Turn left onto **Airport Hwy (US‑129 N)**</p>
+<p>- Keep right toward Exit</p>
+<p>- Turn left</p>
+<p>- Turn right toward **Performance Way**</p>
+<p>- Continue on Performance Way</p>
+<p>- Turn right onto **Cherokee Farm Way**</p>
+<p>- Turn left onto **Accelerator Way**</p>
+<p>- Turn right onto **Osprey Vista Way**</p>
+<p>- Turn right → IAMM HQ</p>
 
   </div>
 
@@ -152,16 +177,16 @@ Below are step‑by‑step directions from the three most common starting points
 <div class="directions-block">
   <div class="directions-text">
 
-- Start at **Market Square**
-- Head toward **Locust St SW** on W Clinch Ave  
-- Turn right onto **Henley St SW (US‑441 N)**  
-- Take ramp onto **I‑40 W** toward Nashville  
-- Take exit **386B** toward US‑129/Alcoa Hwy/Airport/Smoky Mts  
-- Merge onto **US‑129 S (Alcoa Hwy)**  
-- Turn right onto **Cherokee Farm Way**  
-- Turn left onto **Accelerator Way**  
-- Turn right onto **Osprey Vista Way**  
-- Turn right → IAMM HQ
+<p>- Start at **Market Square**</p>
+<p>- Head toward **Locust St SW** on W Clinch Ave</p>
+<p>- Turn right onto **Henley St SW (US‑441 N)**</p>
+<p>- Take ramp onto **I‑40 W** toward Nashville</p>
+<p>- Take exit **386B** toward US‑129/Alcoa Hwy/Airport/Smoky Mts</p>
+<p>- Merge onto **US‑129 S (Alcoa Hwy)**</p>
+<p>- Turn right onto **Cherokee Farm Way**</p>
+<p>- Turn left onto **Accelerator Way**</p>
+<p>- Turn right onto **Osprey Vista Way**</p>
+<p>- Turn right → IAMM HQ</p>
 
   </div>
 
