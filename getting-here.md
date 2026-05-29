@@ -50,7 +50,7 @@ Knoxville, TN 37920
 <div class="directions-block">
   <div class="directions-text">
     The Institute for Advanced Materials & Manufacturing (IAMM) is located within the  
-    **UT Research Park at Cherokee Farm**, just across the river from the main UT campus.  
+    <strong>UT Research Park at Cherokee Farm</strong>, just across the river from the main UT campus.  
     Free street parking is available throughout the Research Park — no parking pass required.
   </div>
 
