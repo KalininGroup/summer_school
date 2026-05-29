@@ -61,7 +61,7 @@ Knoxville, TN 37920
       style="border:0; border-radius:12px;"
       loading="lazy"
       allowfullscreen
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12761.999999!2d-83.9530!3d35.9426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885c3d4a01f31765%3A0xd5291b131177745b!2s2641%20Osprey%20Vista%20Way%2C%20Knoxville%2C%20TN%2037920!5e0!3m2!1sen!2sus!4v0000000000003">
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d771.969538989433!2d-83.952601314443!3d35.94250862678247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd81822a59543c01%3A0x2138edde6b702997!2sUT%20Center%20for%20Advanced%20Materials%20%26%20Manufacturing!5e1!3m2!1sen!2sus!4v1780069763813!5m2!1sen!2sus">
     </iframe>
   </div>
 </div>
