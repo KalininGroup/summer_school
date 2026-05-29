@@ -94,6 +94,12 @@ function showCopiedTooltip(event) {
 }
 </script>
 
+<div class="notice-banner">
+  <strong>📅 Registration Deadlines:</strong>
+  On‑site registration closes <strong>June 10</strong> (late requests by email; lunch availability cannot be guaranteed).
+  Online registration closes <strong>June 17</strong> (contact organizers for late requests).
+</div>
+
 Please complete the form below to register for the **Summer School on ML for EM**.
 
 <!--
