@@ -43,6 +43,13 @@ $header-brand-color: #c0c0c0;// Orange
         margin-top: 12px;
     }
 
+    .site-nav .trigger {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem; /* vertical and horizontal spacing */
+      justify-content: flex-end;
+    }
+
     .page-link {
         color: $header-brand-color;
         line-height: 80px;
