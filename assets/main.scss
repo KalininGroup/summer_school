@@ -703,3 +703,24 @@ ul.grid {
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+
+/* --- Compact Registration Banner --- */
+.notice-banner {
+  background: #ff8200; /* UTK orange */
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.45;
+  margin: 1rem 0 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.notice-banner strong {
+  color: #fff;
+}
+
+.notice-banner:hover {
+  background: #ffa64d; /* lighter UTK orange */
+}
