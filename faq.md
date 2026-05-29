@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
 menu_title: FAQ
+permalink: /faq/
 ---
 
 Below are answers to the most common questions about the Summer School on Machine Learning for Electron Microscopy.
