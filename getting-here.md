@@ -79,12 +79,12 @@ Below are step‑by‑step directions from the three most common starting points
 
 <div class="map-buttons">
   <a class="map-button" href="https://www.google.com/maps/dir/1331+Circle+Park+Dr,+Knoxville,+TN/2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/icons/google-maps.png" alt="">
+    <img src="/summer_school/assets/google-maps.png" alt="Google Maps">
     Google Maps Route
   </a>
 
   <a class="map-button" href="https://maps.apple.com/?saddr=1331+Circle+Park+Dr,+Knoxville,+TN&daddr=2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/icons/apple-maps.png" alt="">
+    <img src="/summer_school/assets/apple-maps.png" alt="Apple Maps">
     Apple Maps Route
   </a>
 </div>
@@ -123,12 +123,12 @@ Below are step‑by‑step directions from the three most common starting points
 
 <div class="map-buttons">
   <a class="map-button" href="https://www.google.com/maps/dir/McGhee+Tyson+Airport/2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/icons/google-maps.png" alt="">
+    <img src="/summer_school/assets/google-maps.png" alt="Google Maps">
     Google Maps Route
   </a>
 
   <a class="map-button" href="https://maps.apple.com/?saddr=McGhee+Tyson+Airport&daddr=2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/icons/apple-maps.png" alt="">
+    <img src="/summer_school/assets/apple-maps.png" alt="Apple Maps">
     Apple Maps Route
   </a>
 </div>
@@ -170,12 +170,12 @@ Below are step‑by‑step directions from the three most common starting points
 
 <div class="map-buttons">
   <a class="map-button" href="https://www.google.com/maps/dir/Market+Square,+Knoxville/2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/icons/google-maps.png" alt="">
+    <img src="/summer_school/assets/google-maps.png" alt="Google Maps">
     Google Maps Route
   </a>
 
   <a class="map-button" href="https://maps.apple.com/?saddr=Market+Square,+Knoxville,+TN&daddr=2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/icons/apple-maps.png" alt="">
+    <img src="/summer_school/assets/apple-maps.png" alt="Apple Maps">
     Apple Maps Route
   </a>
 </div>
