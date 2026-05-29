@@ -43,12 +43,14 @@ $header-brand-color: #c0c0c0;// Orange
         margin-top: 12px;
     }
 
-    /* FIXED selector — remove the extra .site-nav */
     .trigger {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem 1rem; /* vertical and horizontal spacing */
       justify-content: flex-end;
+      max-width: 720px; 
+      margin-left: auto;
+      row-gap: 0.25rem;
+      column-gap: 1.25rem;
     }
 
     .page-link {
