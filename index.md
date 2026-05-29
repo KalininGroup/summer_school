@@ -320,6 +320,16 @@ June 22-26, 2026 · Knoxville, Tennessee
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm0 13l-8-4.36v3.11L12 19l8-4.25v-3.11L12 16z"/>
 </svg>
             </a>
+            <!-- Email -->
+            <a href="mailto:sergei2@utk.edu" title="Email" aria-label="Email">
+              <svg viewBox="0 0 24 24">
+                <path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 
+                2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 
+                2 0 0 0-2-2Zm0 2v.01L12 13 4 
+                6.01V6h16ZM4 18V8.24l8 
+                6.99 8-6.99V18H4Z"/>
+              </svg>
+            </a>
           </span>
       </div>
       <div class="affil">
@@ -351,6 +361,16 @@ June 22-26, 2026 · Knoxville, Tennessee
             <a href="https://scholar.google.com/citations?user=kAI2T5EAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm0 13l-8-4.36v3.11L12 19l8-4.25v-3.11L12 16z"/>
 </svg>
+            </a>
+            <!-- Email -->
+            <a href="mailto:gduscher@utk.edu" title="Email" aria-label="Email">
+              <svg viewBox="0 0 24 24">
+                <path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 
+                2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 
+                2 0 0 0-2-2Zm0 2v.01L12 13 4 
+                6.01V6h16ZM4 18V8.24l8 
+                6.99 8-6.99V18H4Z"/>
+              </svg>
             </a>
           </span>
       </div>
