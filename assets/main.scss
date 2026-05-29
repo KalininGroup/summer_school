@@ -600,3 +600,63 @@ ul.grid {
   z-index: 2;
   pointer-events: none;
 }
+
+/* --- Directions layout --- */
+.directions-block {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.directions-text {
+  flex: 1 1 55%;
+}
+
+.directions-map {
+  flex: 1 1 45%;
+  min-height: 300px;
+}
+
+/* Mobile stacking */
+@media (max-width: 800px) {
+  .directions-block {
+    flex-direction: column;
+  }
+}
+
+/* --- Map buttons --- */
+.map-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0 1.5rem;
+  flex-wrap: wrap;
+}
+
+.map-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  background: rgba(29, 29, 29, 0.75);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #c3c3c3;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.map-button:hover {
+  background: rgba(29, 29, 29, 0.9);
+  transform: translateY(-2px);
+}
+
+.map-button img {
+  width: 20px;
+  height: 20px;
+}
