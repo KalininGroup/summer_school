@@ -55,7 +55,7 @@ $header-brand-color: #c0c0c0;// Orange
 
     .page-link {
         color: $header-brand-color;
-        line-height: 80px;
+        line-height: 32px;
         
         @include media-query($on-palm) {
             color: darken($header-brand-color, $amount: 10);
