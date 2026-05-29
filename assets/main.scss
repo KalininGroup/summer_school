@@ -43,7 +43,8 @@ $header-brand-color: #c0c0c0;// Orange
         margin-top: 12px;
     }
 
-    .site-nav .trigger {
+    /* FIXED selector — remove the extra .site-nav */
+    .trigger {
       display: flex;
       flex-wrap: wrap;
       gap: 0.5rem 1rem; /* vertical and horizontal spacing */
@@ -76,7 +77,13 @@ $header-brand-color: #c0c0c0;// Orange
             }
         }
     }
+
+    .wrapper {
+      flex-wrap: wrap;
+      row-gap: 0.5rem;
+    }
 }
+
 
 .site-title {
     display: block;
