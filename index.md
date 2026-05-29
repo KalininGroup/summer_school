@@ -465,6 +465,27 @@ June 22-26, 2026 · Knoxville, Tennessee
 
 </div>
 
+---
+
+## Quick FAQ
+
+**Do I need prior experience in machine learning or electron microscopy?**  
+No — no prior ML experience is required, and basic EM familiarity is helpful but not necessary.
+
+**Where is the event located?**  
+At the Institute for Advanced Materials & Manufacturing (IAMM), University of Tennessee, Knoxville.
+
+**Will sessions be recorded?**  
+Yes — recordings will be shared with all participants a few weeks after the event.
+
+<p style="margin-top: 1rem;">
+  <a class="btn" href="{{ site.baseurl }}{% link faq.md %}" style="padding: 0.5rem 1rem; background:#f58025; color:white; border-radius:6px; text-decoration:none;">
+    View full FAQ →
+  </a>
+</p>
+
+
+
 <!-- Floating button -->
 <!--
 <a href="/summer_school/#utk-special" class="utk-float-btn">UTK Students Special</a>
