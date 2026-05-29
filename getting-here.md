@@ -6,6 +6,18 @@ menu_icon:
 permalink: /getting-here/
 ---
 
+<style>
+  .direction-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin: 0.25rem 0;
+}
+
+.direction-step p {
+  margin: 0;
+}
+</style>
 
 # 🏛️ Venue & Directions
 
@@ -25,12 +37,12 @@ Knoxville, TN 37920
 
 <div class="map-buttons">
   <a class="map-button" href="https://www.google.com/maps/place/2641+Osprey+Vista+Way,+Knoxville,+TN+37920" target="_blank">
-    <img src="/summer_school/assets/google-maps.svg" alt="Google Maps">
+    <img src="/summer_school/assets/google-maps.png" alt="Google Maps">
     Open in Google Maps
   </a>
 
   <a class="map-button" href="https://maps.apple.com/?address=2641%20Osprey%20Vista%20Way,%20Knoxville,%20TN%2037920" target="_blank">
-    <img src="/summer_school/assets/apple-maps.svg" alt="Apple Maps">
+    <img src="/summer_school/assets/apple-maps.png" alt="Apple Maps">
     Open in Apple Maps
   </a>
 </div>
@@ -67,29 +79,29 @@ Below are step‑by‑step directions from the three most common starting points
 
 <div class="map-buttons">
   <a class="map-button" href="https://www.google.com/maps/dir/1331+Circle+Park+Dr,+Knoxville,+TN/2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/google-maps.svg" alt="Google Maps">
+    <img src="/summer_school/assets/icons/google-maps.png" alt="">
     Google Maps Route
   </a>
 
   <a class="map-button" href="https://maps.apple.com/?saddr=1331+Circle+Park+Dr,+Knoxville,+TN&daddr=2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/apple-maps.svg" alt="Apple Maps">
+    <img src="/summer_school/assets/icons/apple-maps.png" alt="">
     Apple Maps Route
   </a>
 </div>
 
 <div class="directions-block">
-  <div class="directions-text">  
-    <p>Start at <strong>1331 Circle Park Dr.</strong></p>
-    <p>Head southwest</p>
-    <p>Turn right toward <strong>Lake Loudon Blvd SW</strong></p>
-    <p>Turn left onto <strong>Lake Loudon Blvd SW</strong></p>
-    <p>Turn right onto <strong>Neyland Dr SW (TN‑158 W)</strong></p>
-    <p>Turn right onto <strong>Kingston Pike SW (US‑11/US‑70)</strong></p>
-    <p>Take ramp onto <strong>Alcoa Hwy (US‑129 S)</strong></p>
-    <p>Turn right onto <strong>Cherokee Farm Way</strong></p>
-    <p>Turn left onto <strong>Accelerator Way</strong></p>
-    <p>Turn right onto <strong>Osprey Vista Way</strong></p>
-    <p>Turn right → IAMM HQ</p>  
+  <div class="directions-text">
+    <div class="direction-step"><span>📍</span><p>Start at <strong>1331 Circle Park Dr.</strong></p></div>
+    <div class="direction-step"><span>⬆️</span><p>Head southwest</p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right toward <strong>Lake Loudon Blvd SW</strong></p></div>
+    <div class="direction-step"><span>⬅️</span><p>Turn left onto <strong>Lake Loudon Blvd SW</strong></p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right onto <strong>Neyland Dr SW (TN‑158 W)</strong></p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right onto <strong>Kingston Pike SW (US‑11/US‑70)</strong></p></div>
+    <div class="direction-step"><span>↗️</span><p>Take ramp onto <strong>Alcoa Hwy (US‑129 S)</strong></p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right onto <strong>Cherokee Farm Way</strong></p></div>
+    <div class="direction-step"><span>⬅️</span><p>Turn left onto <strong>Accelerator Way</strong></p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right onto <strong>Osprey Vista Way</strong></p></div>
+    <div class="direction-step"><span>📍</span><p>Turn right → IAMM HQ</p></div>
   </div>
 
   <div class="directions-map">
@@ -104,7 +116,6 @@ Below are step‑by‑step directions from the three most common starting points
   </div>
 </div>
 
-
 ---
 
 ## From McGhee Tyson Airport (TYS)
@@ -112,32 +123,32 @@ Below are step‑by‑step directions from the three most common starting points
 
 <div class="map-buttons">
   <a class="map-button" href="https://www.google.com/maps/dir/McGhee+Tyson+Airport/2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/google-maps.svg" alt="Google Maps">
+    <img src="/summer_school/assets/icons/google-maps.png" alt="">
     Google Maps Route
   </a>
 
   <a class="map-button" href="https://maps.apple.com/?saddr=McGhee+Tyson+Airport&daddr=2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/apple-maps.svg" alt="Apple Maps">
+    <img src="/summer_school/assets/icons/apple-maps.png" alt="">
     Apple Maps Route
   </a>
 </div>
 
 <div class="directions-block">
-  <div class="directions-text">  
-    <p>Start at <strong>2055 Alcoa Hwy</strong></p>
-    <p>Head northeast</p>
-    <p>Turn left onto <strong>W General Aviation Dr</strong></p>
-    <p>Turn right onto <strong>W General Aviation Dr</strong></p>
-    <p>Turn right onto <strong>General Aviation Dr</strong></p>
-    <p>Turn left onto <strong>Airport Hwy (US‑129 N)</strong></p>
-    <p>Keep right toward Exit</p>
-    <p>Turn left</p>
-    <p>Turn right toward <strong>Performance Way</strong></p>
-    <p>Continue on Performance Way</p>
-    <p>Turn right onto <strong>Cherokee Farm Way</strong></p>
-    <p>Turn left onto <strong>Accelerator Way</strong></p>
-    <p>Turn right onto <strong>Osprey Vista Way</strong></p>
-    <p>Turn right → IAMM HQ</p>  
+  <div class="directions-text">
+    <div class="direction-step"><span>📍</span><p>Start at <strong>2055 Alcoa Hwy</strong></p></div>
+    <div class="direction-step"><span>⬆️</span><p>Head northeast</p></div>
+    <div class="direction-step"><span>⬅️</span><p>Turn left onto <strong>W General Aviation Dr</strong></p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right onto <strong>W General Aviation Dr</strong></p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right onto <strong>General Aviation Dr</strong></p></div>
+    <div class="direction-step"><span>⬅️</span><p>Turn left onto <strong>Airport Hwy (US‑129 N)</strong></p></div>
+    <div class="direction-step"><span>↪️</span><p>Keep right toward Exit</p></div>
+    <div class="direction-step"><span>⬅️</span><p>Turn left</p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right toward <strong>Performance Way</strong></p></div>
+    <div class="direction-step"><span>⬆️</span><p>Continue on Performance Way</p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right onto <strong>Cherokee Farm Way</strong></p></div>
+    <div class="direction-step"><span>⬅️</span><p>Turn left onto <strong>Accelerator Way</strong></p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right onto <strong>Osprey Vista Way</strong></p></div>
+    <div class="direction-step"><span>📍</span><p>Turn right → IAMM HQ</p></div>
   </div>
 
   <div class="directions-map">
@@ -152,7 +163,6 @@ Below are step‑by‑step directions from the three most common starting points
   </div>
 </div>
 
-
 ---
 
 ## From Downtown Knoxville (Market Square)
@@ -160,29 +170,29 @@ Below are step‑by‑step directions from the three most common starting points
 
 <div class="map-buttons">
   <a class="map-button" href="https://www.google.com/maps/dir/Market+Square,+Knoxville/2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/google-maps.svg" alt="Google Maps">
+    <img src="/summer_school/assets/icons/google-maps.png" alt="">
     Google Maps Route
   </a>
 
   <a class="map-button" href="https://maps.apple.com/?saddr=Market+Square,+Knoxville,+TN&daddr=2641+Osprey+Vista+Way,+Knoxville,+TN" target="_blank">
-    <img src="/summer_school/assets/apple-maps.svg" alt="Apple Maps">
+    <img src="/summer_school/assets/icons/apple-maps.png" alt="">
     Apple Maps Route
   </a>
 </div>
 
 <div class="directions-block">
-    <div class="directions-text">
-      <p>Start at <strong>Market Square</strong></p>
-      <p>Head toward <strong>Locust St SW</strong> on W Clinch Ave</p>
-      <p>Turn right onto <strong>Henley St SW (US‑441 N)</strong></p>
-      <p>Take ramp onto <strong>I‑40 W</strong> toward Nashville</p>
-      <p>Take exit <strong>386B</strong> toward US‑129/Alcoa Hwy/Airport/Smoky Mts</p>
-      <p>Merge onto <strong>US‑129 S (Alcoa Hwy)</strong></p>
-      <p>Turn right onto <strong>Cherokee Farm Way</strong></p>
-      <p>Turn left onto <strong>Accelerator Way</strong></p>
-      <p>Turn right onto <strong>Osprey Vista Way</strong></p>
-      <p>Turn right → IAMM HQ</p>  
-    </div>
+  <div class="directions-text">
+    <div class="direction-step"><span>📍</span><p>Start at <strong>Market Square</strong></p></div>
+    <div class="direction-step"><span>⬆️</span><p>Head toward <strong>Locust St SW</strong> on W Clinch Ave</p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right onto <strong>Henley St SW (US‑441 N)</strong></p></div>
+    <div class="direction-step"><span>↗️</span><p>Take ramp onto <strong>I‑40 W</strong> toward Nashville</p></div>
+    <div class="direction-step"><span>🛣️</span><p>Take exit <strong>386B</strong> toward US‑129/Alcoa Hwy/Airport/Smoky Mts</p></div>
+    <div class="direction-step"><span>⬇️</span><p>Merge onto <strong>US‑129 S (Alcoa Hwy)</strong></p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right onto <strong>Cherokee Farm Way</strong></p></div>
+    <div class="direction-step"><span>⬅️</span><p>Turn left onto <strong>Accelerator Way</strong></p></div>
+    <div class="direction-step"><span>➡️</span><p>Turn right onto <strong>Osprey Vista Way</strong></p></div>
+    <div class="direction-step"><span>📍</span><p>Turn right → IAMM HQ</p></div>
+  </div>
 
   <div class="directions-map">
     <iframe
@@ -195,7 +205,6 @@ Below are step‑by‑step directions from the three most common starting points
     </iframe>
   </div>
 </div>
-
 
 ---
 
