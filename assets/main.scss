@@ -659,3 +659,22 @@ ul.grid {
   height: 20px;
   width: auto;
 }
+
+.notice-box {
+  background: #fff4e6; /* soft UTK orange tint */
+  border-left: 5px solid #ff8200; /* UTK orange accent */
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.notice-box h3 {
+  color: #ff8200;
+  margin-top: 0;
+}
+
+.notice-box p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
