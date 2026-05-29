@@ -2,7 +2,7 @@
 layout: default
 title: Venue & Directions
 menu_title: Getting here
-menu_icon: 
+menu_icon: map
 permalink: /getting-here/
 ---
 
