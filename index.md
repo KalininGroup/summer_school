@@ -269,6 +269,22 @@ function showCopiedTooltip(event) {
   4<sup>th</sup> School on ML/AI for Electron Microscopy
 </h1>
 
+<div class="notice-box">
+  <h3>📅 Closing of Registration</h3>
+
+  <p><strong>On‑site participation:</strong> Registration closes on <strong>June 10</strong> to allow us to finalize catering arrangements.  
+  Late on‑site registrations may still be considered by email, although <em>lunch availability cannot be guaranteed</em>.</p>
+
+  <p><strong>Online participation:</strong> Registration closes on <strong>June 17</strong>.  
+  For late online registration requests, please contact the organizers.</p>
+
+  <div class="notice-button-wrapper">
+    <a class="notice-button" href="/summer_school/registration">
+      Register now!
+    </a>
+  </div>
+</div>
+
 <div class="subtitle subtitle-dates">
 June 22-26, 2026 · Knoxville, Tennessee
 </div>
