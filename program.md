@@ -13,6 +13,8 @@ menu_icon: clock
     }
 </style>
 
+> **Schedule times are given in Eastern Daylight Time (EDT, UTC‑4).**
+
   <!-- ===================== DAY 1 ===================== -->
 
 <div class="day-header">Monday, June 22: Atomic Resolution STEM and Physics from Atomic Positions</div>
