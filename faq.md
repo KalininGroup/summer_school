@@ -83,6 +83,10 @@ The school covers:
 ### **Will there be posters or project submissions?**
 No. The school consists of lectures, demonstrations, and hands‑on sessions only.
 
+### **What time zone is the schedule in?**
+All schedule times are listed in **Eastern Daylight Time (EDT, UTC‑4)**, which corresponds to the local time at the on‑site venue (University of Tennessee, Knoxville).  
+Online participants should convert the times to their local time zone.
+
 ---
 
 ## Miscellaneous
