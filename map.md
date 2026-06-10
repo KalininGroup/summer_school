@@ -224,6 +224,7 @@ const locations = [
   { name: "Bhilai Institute of Technology, Durg, India", coords: [21.1900, 81.2830] },
   { name: "Bundelkhand University, Jhansi, India", coords: [25.4484, 78.5685] },
   { name: "Chitkara University, Rajpura, India", coords: [30.5167, 76.6572] },
+  { name: "Chulalongkorn University, Bangkok, Thailand", coords: [13.73857, 100.53213] },
   { name: "Chungnam National University, Daejeon, South Korea", coords: [36.3656, 127.3449] },
   { name: "City University of Hong Kong, Hong Kong, China", coords: [22.3372, 114.1731] },
   { name: "Dankook University, Yongin, South Korea", coords: [37.3210, 127.1265] },
