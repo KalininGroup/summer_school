@@ -154,7 +154,6 @@ menu_icon: clock
     <div>4:00 PM</div>
     <div>5:00 PM</div>
     <div class="schedule-title">Hackathon 2: Data curation and unsupervised analysis of the diffraction data [Participant computer*]<span class="schedule-instructor"> — Houston</span></div>
-  </div></div>
   </div>
 
 </div>
