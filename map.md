@@ -142,6 +142,7 @@ const locations = [
   { name: "University of Ghana, Accra, Ghana", coords: [5.6500, -0.1869] },
   { name: "University of Namibia, Windhoek, Namibia", coords: [-22.5597, 17.0658] },
   { name: "University of Rwanda, Kigali, Rwanda", coords: [-1.9441, 30.0619] },
+  { name: "Kwame Nkrumah University of Science and Technology (KNUST), Kumasi, Ghana", coords: [6.67463, -1.57143] },
 
   // --- Middle East ---
   { name: "Egypt-Japan University of Science and Technology (E-JUST), New Borg El Arab, Egypt", coords: [30.91803, 29.31703] },
@@ -211,6 +212,11 @@ const locations = [
   { name: "University of Silesia in Katowice, Katowice, Poland", coords: [50.2590, 19.0216] },
   { name: "University of Zaragoza - Advanced Microscopy Laboratory, Zaragoza, Spain", coords: [41.6835, -0.8880] },
   { name: "VTT Technical Research Centre of Finland, Espoo, Finland", coords: [60.1870, 24.8150] },
+  { name: "Helmholtz Zentrum Hereon, Geesthacht, Germany", coords: [53.43563, 10.37743] },
+  { name: "Institut Català de Nanociència i Nanotecnologia (ICN2), Bellaterra, Spain", coords: [41.50063, 2.10643] },
+  { name: "KTH Royal Institute of Technology, Stockholm, Sweden", coords: [59.34763, 18.07343] },
+  { name: "Technical University Darmstadt, Darmstadt, Germany", coords: [49.87263, 8.65243] },
+  { name: "University of Bologna, Bologna, Italy", coords: [44.49463, 11.34343] },
 
   // --- Asia ---
   { name: "A*STAR, Singapore, Singapore", coords: [1.2990, 103.7870] },
@@ -283,6 +289,7 @@ const locations = [
   { name: "The University of Tokyo, Tokyo, Japan", coords: [35.71263, 139.76103] },
   { name: "University of Sindh, Jamshoro, Pakistan", coords: [25.42603, 68.26703] },
   { name: "Vellore Institute of Technology, Vellore, India", coords: [12.9692, 79.1559] },
+  { name: "IIT Jodhpur, Karwar, Rajasthan, India", coords: [26.47163, 73.11443] },
 
   // --- North America ---
   { name: "3M, Saint Paul, Minnesota, United States", coords: [44.95366, -93.08994] },
@@ -377,6 +384,16 @@ const locations = [
   { name: "Virginia Tech, Blacksburg, Virginia, United States", coords: [37.2296, -80.4139] },
   { name: "West Virginia University, Morgantown, West Virginia, United States", coords: [39.6350, -79.9540] },
   { name: "Western Illinois University, Macomb, Illinois, United States", coords: [40.4668, -90.6710] },
+  { name: "Duke University, Durham, North Carolina, United States", coords: [35.99963, -78.94743] },
+  { name: "Montana State University, Bozeman, Montana, United States", coords: [45.66763, -111.04843] },
+  { name: "North Carolina State University, Raleigh, North Carolina, United States", coords: [35.78463, -78.68243] },
+  { name: "Thermo Fisher Scientific, Waltham, Massachusetts, United States", coords: [42.39363, -71.25943] },
+  { name: "University of California, Davis, Davis, California, United States", coords: [38.53863, -121.76143] },
+  { name: "University of Illinois Chicago, Chicago, Illinois, United States", coords: [41.87063, -87.65043] },
+  { name: "University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, United States", coords: [35.91263, -79.05143] },
+  { name: "University of Rochester, Rochester, New York, United States", coords: [43.12863, -77.62843] },
+  { name: "University of Wisconsin–La Crosse, La Crosse, Wisconsin, United States", coords: [43.81463, -91.22943] },
+  { name: "XY Insights LLC, Millbrae, California, United States", coords: [37.60017797202989, -122.39047437483646] },
 
   // --- South America ---
   { name: "Centro Nacional de Pesquisa em Energia e Materiais (CNPEM), Campinas, Brazil", coords: [-22.82803, -47.07303] },
