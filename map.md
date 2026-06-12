@@ -394,6 +394,7 @@ const locations = [
   { name: "University of Rochester, Rochester, New York, United States", coords: [43.12863, -77.62843] },
   { name: "University of Wisconsin–La Crosse, La Crosse, Wisconsin, United States", coords: [43.81463, -91.22943] },
   { name: "XY Insights LLC, Millbrae, California, United States", coords: [37.60017797202989, -122.39047437483646] },
+  { name: "University of Nevada, Reno, Nevada, United States", coords: [39.54857, -119.81569] },
 
   // --- South America ---
   { name: "Centro Nacional de Pesquisa em Energia e Materiais (CNPEM), Campinas, Brazil", coords: [-22.82803, -47.07303] },
