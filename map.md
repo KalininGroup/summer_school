@@ -217,6 +217,7 @@ const locations = [
   { name: "KTH Royal Institute of Technology, Stockholm, Sweden", coords: [59.34763, 18.07343] },
   { name: "Technical University Darmstadt, Darmstadt, Germany", coords: [49.87263, 8.65243] },
   { name: "University of Bologna, Bologna, Italy", coords: [44.49463, 11.34343] },
+  { name: "Helmholtz-Zentrum Hereon, Geesthacht, Germany", coords: [53.43563, 10.37743] },
 
   // --- Asia ---
   { name: "A*STAR, Singapore, Singapore", coords: [1.2990, 103.7870] },
