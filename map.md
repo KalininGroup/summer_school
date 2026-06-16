@@ -219,6 +219,7 @@ const locations = [
   { name: "University of Bologna, Bologna, Italy", coords: [44.49463, 11.34343] },
   { name: "Helmholtz-Zentrum Hereon, Geesthacht, Germany", coords: [53.43563, 10.37743] },
   { name: "University of Warwick, Coventry, United Kingdom", coords: [52.37925, -1.56147] },
+  { name: "Max Planck Institute for Solid State Research, Stuttgart, Germany", coords: [48.74659, 9.08234] },
 
   // --- Asia ---
   { name: "A*STAR, Singapore, Singapore", coords: [1.2990, 103.7870] },
