@@ -84,7 +84,7 @@ menu_icon: clock
   <div class="schedule-row">
     <div>4:00 PM</div>
     <div>5:00 PM</div>
-    <div class="schedule-title">Hackathon 1: Image analysis pipelines [Participant computer*]<span class="schedule-instructor"> — Duscher</span></div>
+    <div class="schedule-title">Hackathon 1: Image analysis pipelines [Participant computer*]<span class="schedule-instructor"> — Duscher, Pates</span></div>
   </div>
 
 </div>
