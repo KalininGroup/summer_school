@@ -121,7 +121,7 @@ function showCopiedTooltip(event) {
 <!-- ===========================
      REGISTRATION CONTENT
 =========================== -->
-
+<!--
 <div class="notice-banner">
   <strong>📅 Registration Deadlines:</strong>
   On‑site registration closes <strong>June 10</strong> (late requests by email; lunch availability cannot be guaranteed).
@@ -129,7 +129,7 @@ function showCopiedTooltip(event) {
 </div>
 
 Please complete the form below to register for the **Summer School on ML for EM**.
-
+-->
 <!--
 <details class="utk-info">
   <summary><strong>Important Information for UTK Students (3‑CH Option)</strong></summary>
@@ -145,7 +145,7 @@ Please complete the form below to register for the **Summer School on ML for EM*
   </p>
 </details>
 -->
-
+<!--
 <p><strong>Note:</strong> After submitting the form, you will <em>not</em> receive an automatic confirmation email. All registered participants will receive further information about the Summer School closer to the event.</p>
 
 <div class="reg-card"> 
@@ -158,13 +158,11 @@ Please complete the form below to register for the **Summer School on ML for EM*
     Loading…
   </iframe>
 </div>
-
+-->
 
 <!-- ===========================
      CLOSED REGISTRATION PANEL
 =========================== -->
-
-<!--
 
 <div class="reg-closed">
   <h2>Registration is now closed</h2>
@@ -188,4 +186,3 @@ Please complete the form below to register for the **Summer School on ML for EM*
   </p>
 </div>
 
--->
