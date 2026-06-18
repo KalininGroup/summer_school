@@ -240,6 +240,30 @@ menu_icon: house-door
   transition: opacity 0.2s ease-out;
   white-space: nowrap;
 }
+
+  .reg-closed {
+    max-width: 1050px;
+    margin: 2rem auto;
+    padding: 1.6rem 1.9rem;
+    background: #fffdf7;
+    border: 1px solid #e6d9b8;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+
+  .reg-closed h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #b36b00;
+  } 
+
+  .reg-closed p {
+    margin: 0.6rem 0;
+    font-size: 1.05rem;
+    line-height: 1.55;
+  }
   
 </style>
 
@@ -269,6 +293,8 @@ function showCopiedTooltip(event) {
   4<sup>th</sup> School on ML/AI for Electron Microscopy
 </h1>
 
+<!-- Closing registration notice -->
+<!--
 <div class="notice-box">
   <h3>📅 Closing of Registration</h3>
 
@@ -283,6 +309,36 @@ function showCopiedTooltip(event) {
       Register now!
     </a>
   </div>
+</div>
+-->
+
+<!-- Registration closed notice -->
+
+<!-- ===========================
+     CLOSED REGISTRATION PANEL
+=========================== -->
+
+<div class="reg-closed">
+  <h2>Registration is now closed</h2>
+
+  <p>
+    Thank you for your interest in the <strong>Summer School on ML for EM</strong>.
+    Regular registration has now ended.
+  </p>
+
+  <p>
+    <strong>Late registration may still be considered.</strong>
+    To request late participation, please contact the organizing committee:
+  </p>
+
+  <a href="mailto:gloy1@utk.edu,aslautin@utk.edu?cc=sergei2@utk.edu,gduscher@utk.edu">
+    Email the organizing committee
+  </a>
+  
+
+  <p>
+    We will do our best to accommodate late requests.
+  </p>
 </div>
 
 <div class="subtitle subtitle-dates">
