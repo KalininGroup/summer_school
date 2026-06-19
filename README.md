@@ -25,9 +25,11 @@ Registration is available through the event website:
 ---
 
 ## 📚 Schedule
-A detailed schedule will be published on the website.
+A detailed schedule is published on the website:
 
-The program will include:
+🕓 **https://kaliningroup.github.io/summer_school/program/**
+
+The program includes:
 - Lectures by invited experts in ML and EM  
 - Hands-on tutorials (Python/Colab)  
 - Hackaton sessions with provided materials  
@@ -69,7 +71,9 @@ All participants will attend lectures and hands-on sessions using provided mater
 2641 Osprey Vista Way  
 Knoxville, TN 37920
 
-Directions and maps are available on the event website.
+Directions and maps are available on the event website:
+
+🚗 **https://kaliningroup.github.io/summer_school/getting-here/**
 
 ---
 
