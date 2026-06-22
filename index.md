@@ -317,7 +317,7 @@ function showCopiedTooltip(event) {
 <!-- ===========================
      CLOSED REGISTRATION PANEL
 =========================== -->
-
+<!--
 <div class="reg-closed">
   <h2>Registration is now closed</h2>
 
@@ -340,6 +340,7 @@ function showCopiedTooltip(event) {
     We will do our best to accommodate late requests.
   </p>
 </div>
+-->
 
 <div class="subtitle subtitle-dates">
 June 22-26, 2026 · Knoxville, Tennessee
@@ -450,12 +451,14 @@ June 22-26, 2026 · Knoxville, Tennessee
   <div class="tutorials-grid">
     <div class="tutorials-col">
       <p>Kevin Roccapriore (AtomQ)</p>
-      <p>Rama Vasudevan (ORNL)</p>
+      <p>Andrew Lupini (ORNL)</p>
       <p>Kamal Choudhary (JHU)</p>
       <p>Colin Ophus (Stanford)</p>
+      <p>Paolo Longo (ThermoFisher)</p>
     </div>    
     <div class="tutorials-col">
       <p>Sheryl Sanchez</p>
+      <p>Ioannis Sgouralis</p>
       <p>Austin Houston</p>
       <p>Elizabeth Heon</p>
       <p>Boris Slautin</p>
