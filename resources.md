@@ -55,6 +55,28 @@ menu_icon: book
 <div class="section-card">
   <h2>    
     <svg class="header-icon" viewBox="0 0 32 32" fill="currentColor">
+      <path id="path7_fill" data-name="path7 fill" d="M26.0766,3.5878a1.69,1.69,0,1,1-1.76-1.5853,1.67,1.67,0,0,1,1.76,1.5853Z"></path>
+      <path id="path8_fill" data-name="path8 fill" d="M16.2191,23.1113c-4.4866,0-8.43-1.61-10.4688-3.9882a11.1618,11.1618,0,0,0,20.9377,0C24.6541,21.5011,20.7257,23.1113,16.2191,23.1113Z"></path>
+      <path id="path9_fill" data-name="path9 fill" d="M16.2191,7.6483c4.4867,0,8.43,1.61,10.4689,3.9881a11.1618,11.1618,0,0,0-20.9377,0C7.7892,9.2535,11.7126,7.6483,16.2191,7.6483Z"></path>
+      <path id="path10_fill" data-name="path10 fill" d="M10.0427,27.7388a2.1085,2.1085,0,1,1-.2031-.7976,2.1278,2.1278,0,0,1,.2031.7976Z"></path>
+      <path id="path11_fill" data-name="path11 fill" d="M6.26,7.1064A1.2263,1.2263,0,1,1,7.4517,5.83,1.2415,1.2415,0,0,1,6.26,7.1064Z"></path>
+    </svg>
+    The Summer school lectures
+  </h2>
+  
+  <p>
+    The Jupyter notebooks to follow the lectures are available on 
+    <a href="https://github.com/gduscher/MLSTEM2026/"
+       target="_blank" rel="noopener noreferrer" style="color:#3366cc; text-decoration:none;">
+       this GitHub repository.
+    </a>
+  </p>
+</div>
+
+
+<div class="section-card">
+  <h2>    
+    <svg class="header-icon" viewBox="0 0 32 32" fill="currentColor">
       <path d="M 16 5 C 11.011719 5 11 7 11 7 L 11 11 L 17 11 L 17 12 L 7 12 C 7 12 4 11.539063 4 17 C 4 22.460938 7 22 7 22 L 10 22 L 10 20.375 C 10 17.964844 11.964844 16 14.375 16 L 17.625 16 C 19.484375 16 21 15.484375 21 13.625 L 21 7 C 21 7 20.988281 5 16 5 Z M 13 7 C 13.550781 7 14 7.449219 14 8 C 14 8.550781 13.550781 9 13 9 C 12.449219 9 12 8.550781 12 8 C 12 7.449219 12.449219 7 13 7 Z M 22 11 L 22 13.625 C 22 16.035156 20.035156 17 17.625 17 L 14.375 17 C 12.515625 17 11 18.515625 11 20.375 L 11 26 C 11 26 11.0625 28 16 28 C 20.9375 28 21 26 21 26 L 21 22 L 15 22 L 15 21 L 25 21 C 25 21 28 21.503906 28 16 C 28 10.496094 25 11 25 11 Z M 19 24 C 19.550781 24 20 24.449219 20 25 C 20 25.550781 19.550781 26 19 26 C 18.449219 26 18 25.550781 18 25 C 18 24.449219 18.449219 24 19 24 Z"></path>
     </svg>
     Getting Started with Python
