@@ -41,7 +41,7 @@ menu_icon: clock
 
   <div class="schedule-row">
     <div>10:50 AM</div>
-    <div>11:00 AM</div>
+    <div>11:10 AM</div>
     <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
@@ -110,7 +110,7 @@ menu_icon: clock
 
   <div class="schedule-row">
     <div>10:50 AM</div>
-    <div>11:00 AM</div>
+    <div>11:10 AM</div>
     <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
@@ -179,7 +179,7 @@ menu_icon: clock
 
   <div class="schedule-row">
     <div>10:50 AM</div>
-    <div>11:00 AM</div>
+    <div>11:10 AM</div>
     <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
@@ -248,7 +248,7 @@ menu_icon: clock
 
   <div class="schedule-row">
     <div>10:50 AM</div>
-    <div>11:00 AM</div>
+    <div>11:10 AM</div>
     <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
@@ -317,7 +317,7 @@ menu_icon: clock
 
   <div class="schedule-row">
     <div>10:50 AM</div>
-    <div>11:00 AM</div>
+    <div>11:10 AM</div>
     <div class="schedule-title"><i>Coffee Break</i></div>
   </div>
 
