@@ -41,6 +41,12 @@ permalink: /feedback/
 }
 </style>
 
+<strong>Thank you for being part of the Summer School on Machine Learning for Electron Microscopy!</strong>
+
+Your enthusiasm made this week truly special. If you feel like sharing your experience, favorite moments, or photos on social media, please do — it’s always wonderful to see the event through your eyes.
+  
+<i>If you post on social media, feel free to use the hashtag #MLSTEM2026 so we can find your posts.</i>
+
 <div class="tabs">
   <div class="tab-buttons">
     <button class="active" onclick="showTab('form1')">Certificate Request</button>
