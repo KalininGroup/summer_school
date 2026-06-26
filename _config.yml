@@ -11,7 +11,7 @@ author:
 mailbox_address:
 
 # description: |
-#   Conference workshop on Atomic Fabrication
+#   The Summer School on ML for EM 2026
 
 url: "https://kaliningroup.github.io/summer_school/"
 github_repo: kaliningroup
@@ -43,7 +43,7 @@ event_status: soon
 #   open = Registration form is open
 # closed = Registration form is now closed
 #  (demo = show all pages to demonstrate the template)
-registration_status: open
+registration_status: closed
 
 # Remove ".html" from default permalinks
 permalink: pretty
