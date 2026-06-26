@@ -14,6 +14,7 @@ permalink: /feedback/
 
 .tab-buttons {
   display: flex;
+  justify-content: center;
   gap: 1rem;
   margin-bottom: 1rem;
 }
