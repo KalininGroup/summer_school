@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     activesupport (6.1.7.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
@@ -24,12 +24,17 @@ GEM
     ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
+    eventmachine (1.2.7-x86-mingw32)
     execjs (2.8.1)
     faraday (2.7.4)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
     ffi (1.15.5)
+    ffi (1.15.5-x64-mingw-ucrt)
+    ffi (1.15.5-x64-mingw32)
+    ffi (1.15.5-x86-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (228)
@@ -246,23 +251,30 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2026.3)
+      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
+    wdm (0.1.1)
+    webrick (1.9.2)
     zeitwerk (2.6.7)
 
 PLATFORMS
   ruby
+  x64-mingw-ucrt
+  x64-mingw32
+  x86-mingw32
 
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
   racc (~> 1.8)
-  tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
+  webrick (~> 1.9)
 
 BUNDLED WITH
-   1.17.2
+   2.3.26

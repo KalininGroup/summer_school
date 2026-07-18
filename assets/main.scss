@@ -739,3 +739,136 @@ ul.grid {
 .notice-banner:hover {
   background: #ffa64d; /* lighter UTK orange */
 }
+
+/* ==========================================================================
+   Global Card Styles (From Resources)
+   ========================================================================== */
+.section-card {
+  background: #fafbfd;
+  border: 1px solid #e8ecf3;
+  border-radius: 14px;
+  padding: 26px 24px;
+  margin: 32px 0;
+  box-shadow: 0 1px 2px rgba(16,24,40,.04);
+}
+.section-card h2 {
+  font-size: 1.3rem;
+  color: #1d2a56;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-card p {
+  font-size: 0.95rem;
+  color: #475467;
+  line-height: 1.5;
+}
+.video-frame {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.header-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.book-card {
+  background: #ffffff;
+  border: 1px solid #e8ecf3;
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin: 18px 0;
+  box-shadow: 0 1px 2px rgba(16,24,40,.04);
+}
+
+/* ==========================================================================
+   Combined Feedback & Quotes Layout (50/50 Split)
+   ========================================================================== */
+
+.combined-feedback-section {
+  max-width: 1200px; 
+  margin: 3rem auto;
+  padding: 0 1rem;
+  display: grid;
+  /* 1fr 1fr creates a perfect 50/50 split between Feedback and Quotes */
+  grid-template-columns: 1fr 1fr; 
+  gap: 3rem; 
+}
+
+/* Left Column: Vertical Stack (Feedback) */
+.feedback-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.feedback-box {
+  background-color: #f4f7fb; /* Soft icy blue background */
+  border-left: 6px solid #1d2a56; /* The deep blue vertical bar */
+  border-radius: 4px; 
+  padding: 1.25rem 1.5rem;
+  margin: 0;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+.feedback-box h2 {
+  font-size: 1.2rem;
+  color: #1d2a56;
+  margin-top: -.3rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.feedback-box p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Right Column: 2x3 Grid (Quotes) */
+.quotes-grid-side-by-side {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns inside the right half */
+  gap: 1.5rem; /* Forces space between rows and columns */
+}
+
+/* Fix for the sticking quotes */
+.quotes-grid-side-by-side .notice-box {
+  margin: 0 !important; /* The !important tag blocks your theme from pulling them together */
+  height: 100%; 
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  box-sizing: border-box; /* Prevents padding from breaking the width */
+}
+
+/* ==========================================================================
+   Responsive Scaling (Mobile & Tablet)
+   ========================================================================== */
+
+/* On tablets and smaller screens, stack the two main halves vertically */
+@media (max-width: 992px) {
+  .combined-feedback-section {
+    grid-template-columns: 1fr; 
+  }
+  /* The Feedback section will naturally stack 1x4 here because of flexbox */
+}
+
+/* On mobile phones, keep quotes 2x3 but shrink them slightly to fit the screen */
+@media (max-width: 576px) {
+  .quotes-grid-side-by-side {
+    gap: 1rem; /* Tighter gaps for smaller screens */
+  }
+  .quotes-grid-side-by-side .notice-box {
+    padding: 0.75rem 1rem; /* Smaller padding */
+    font-size: 0.9rem; /* Shrinks the text slightly so it doesn't overflow */
+  }
+}

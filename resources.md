@@ -4,54 +4,6 @@ menu_title: Resources
 menu_icon: book
 ---
 
-
-<style>
-.section-card{
-  background:#fafbfd;
-  border:1px solid #e8ecf3;
-  border-radius:14px;
-  padding:26px 24px;
-  margin:32px 0;
-  box-shadow:0 1px 2px rgba(16,24,40,.04);
-}
-.section-card h2{
-  font-size:1.3rem;
-  color:#1d2a56;
-  margin-top:0;
-  margin-bottom:10px;
-  font-weight:600;
-  
-  display:flex;
-  align-items:center;
-  gap:10px;
-}
-.section-card p{
-  font-size:0.95rem;
-  color:#475467;
-  line-height:1.5;
-}
-.video-frame{
-  width:100%;
-  aspect-ratio:16/9;
-  border-radius:10px;
-  overflow:hidden;
-  margin-top:15px;
-}
-  .header-icon {
-  width: 22px;
-  height: 22px;
-  flex-shrink: 0;
-}
-  .book-card {
-  background: #ffffff;
-  border: 1px solid #e8ecf3;
-  border-radius: 10px;
-  padding: 16px 18px;
-  margin: 18px 0;
-  box-shadow: 0 1px 2px rgba(16,24,40,.04);
-}
-</style>
-
 <div class="section-card">
   <h2>    
     <svg class="header-icon" viewBox="0 0 32 32" fill="currentColor">

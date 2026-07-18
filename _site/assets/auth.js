@@ -1,3 +1,14 @@
+// ---------------------------------------------------------
+// PASSWORD DISABLED — page always visible
+// ---------------------------------------------------------
+document.documentElement.style.visibility = "visible";
+
+
+/* ---------------------------------------------------------
+   PASSWORD PROTECTION (currently disabled)
+   To re-enable: remove this comment block
+------------------------------------------------------------
+
 (async function () {
   // 1) Put your SHA-256 hash here (NOT the plain password)
   const HASH = "e0a489eb54d440b0ac2e5a027bf80537f0807a6d547db84f8b0af9738f053d5f";
@@ -34,3 +45,6 @@
     document.body.innerHTML = "<h2>Access denied</h2>";
   }
 })();
+
+
+--------------------------------------------------------- */

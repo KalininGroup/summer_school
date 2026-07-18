@@ -196,21 +196,28 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
-.site-header { background: #1d1d1d; border: none; color: #c3c3c3; min-height: 80px; }
+.site-header { position: sticky; top: 0; z-index: 1000; background: rgba(29, 29, 29, 0.9); backdrop-filter: blur(6px); border: none; color: #c3c3c3; height: auto; padding: 14px 0; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06); transition: padding 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease; }
+
+.site-header.shrink { padding: 8px 0; /* ~50% of original */ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12); }
+
+.site-header .wrapper { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; row-gap: 0.25rem; }
 
 @media screen and (max-width: 600px) { .site-nav { margin-top: 12px; } }
-.site-nav .page-link { color: #c0c0c0; line-height: 80px; }
+.site-nav .trigger { display: flex; flex-wrap: wrap; justify-content: flex-end; max-width: 550px; margin-left: auto; column-gap: 1.25rem; row-gap: 0.25rem; }
+.site-nav .page-link { color: #c0c0c0; line-height: 32px; }
 @media screen and (max-width: 600px) { .site-nav .page-link { color: #a7a7a7; line-height: 40px; } }
 .site-nav .page-link:hover { text-decoration: none; }
 .site-nav .page-link:hover span { text-decoration: underline; }
 .site-nav .page-link.active { color: #fff; font-weight: 600; pointer-events: none; }
 @media screen and (max-width: 600px) { .site-nav .page-link.active { color: #000; } }
+.site-nav .wrapper { flex-wrap: wrap; row-gap: 0.5rem; }
 
-.site-title { display: block; background: no-repeat center left url(logo.png); background-size: 60px; padding: 15px 0 15px 70px; line-height: 23px; font-weight: 500; margin-right: 10px; }
+.site-title { display: block; background: none; padding: 15px 0; line-height: 23px; font-weight: 500; margin-right: 10px; }
 .site-title small { font-size: 59%; }
 .site-title, .site-title:visited { color: #c0c0c0; }
 .site-title.active { pointer-events: none; }
-@media screen and (max-width: 600px) { .site-title { margin-right: 50px; } }
+
+.site-header.shrink .site-title { font-size: 1.2rem; }
 
 #breadcrumbs { font-size: 80%; color: #828282; margin-bottom: 15px; }
 
@@ -221,6 +228,8 @@ h1.secondary { font-size: 125%; margin-top: -30px; margin-bottom: 30px; padding-
 .lead { margin-bottom: 30px; padding: 25.5px 22.5px; background: #f0f0f0; font-size: 20px; }
 @media screen and (max-width: 800px) { .lead { font-size: 18px; } }
 
+@media (max-width: 700px) { .site-title { flex: 1 1 auto; min-width: 0; margin-right: 10px; }
+  .site-nav { flex: 0 0 auto; } }
 .aside { margin: 15px 0 15px 15px; padding: 25.5px 22.5px; background: #f0f0f0; font-size: 20px; float: right; width: 35%; }
 @media screen and (max-width: 800px) { .aside { font-size: 18px; } }
 @media screen and (max-width: 600px) { .aside { float: none; width: unset; margin-left: 0; } }
@@ -239,7 +248,7 @@ dl dd { padding-left: 7.5px; }
 
 @media screen and (max-width: 420px) { .hide-very-narrow { display: none; } }
 
-.btn { display: inline-block; margin: 5px 10px; padding: 10px 15px; background: #c0c0c0; font-size: 16px; font-weight: bold; color: #3f3f3f !important; }
+.btn { display: inline-block; margin: 5px 10px; padding: 10px 15px; background: #c0c0c0; font-size: 16px; font-weight: bold; color: #ffffff; }
 .btn:hover { color: #1d1d1d !important; outline: 3px solid #1d1d1d !important; text-decoration: none; }
 .btn.disabled, .btn.disabled:hover { background: #dddddd; color: #555555 !important; outline: none !important; }
 
@@ -288,3 +297,141 @@ ul.grid .resource-block { background: #f0f0f0; }
 
 /* Optional: justify body paragraphs */
 .page-content p, .post-content p { text-align: justify !important; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
+
+/* --- Organizing Team Cards --- */
+.team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 20px; }
+
+.team-card { display: flex; gap: 12px; align-items: flex-start; background: #fafbfd; border: 1px solid #eef0f5; border-radius: 14px; padding: 16px 18px; box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04); }
+
+.team-card img { width: 72px; height: 72px; border-radius: 12px; object-fit: cover; border: 1px solid #e8ecf3; background: #fff; }
+
+.team-meta .name { font-weight: 700; color: #1d2a56; }
+
+.team-meta .affil { font-size: .92rem; color: #64748b; }
+
+.socials { display: inline-flex; align-items: center; gap: 8px; margin-left: 6px; }
+
+.socials a { color: #1d4ed8; text-decoration: none; transition: color 0.2s ease; }
+
+.socials a:hover { color: #0f172a; }
+
+.socials svg { width: 17px; height: 17px; fill: currentColor; }
+
+/* --- Modern Schedule Grid --- */
+.schedule-day { margin: 2rem 0; }
+
+.schedule-row { display: grid; grid-template-columns: 120px 120px 1fr; gap: 12px; padding: 10px 14px; border-bottom: 1px solid #e5e7eb; }
+
+.schedule-row:nth-child(even) { background: #f9fafb; }
+
+.schedule-title { font-weight: 600; color: #1d2a56; }
+
+.schedule-instructor { color: #475569; font-size: 0.9rem; }
+
+.day-header { font-size: 1.2rem; font-weight: 700; margin: 2rem 0 1rem; padding: 8px 0; border-bottom: 2px solid #1d2a56; }
+
+@media (max-width: 600px) { .schedule-row { grid-template-columns: 1fr; } }
+/* --- Tutorials Card --- */
+.tutorials-card { padding: 20px 24px; }
+
+.tutorials-card h2 { text-align: center; margin-bottom: 18px; font-size: 1.4rem; font-weight: 700; color: #1d2a56; }
+
+.tutorials-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px 40px; }
+
+.tutorials-col p { margin: 6px 0; font-size: 1rem; color: #333; font-weight: 500; }
+
+/* Mobile: 1 column */
+@media (max-width: 700px) { .tutorials-grid { grid-template-columns: 1fr; } }
+.section-title { text-align: center; margin: 40px 0 20px; font-size: 1.4rem; font-weight: 700; color: #1d2a56; }
+
+.ring-wrapper { position: absolute; width: 64px; height: 64px; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none; }
+
+/* Back to Top Button */
+#backToTop { position: fixed; bottom: 30px; right: 30px; width: 46px; height: 46px; border-radius: 50%; background: rgba(29, 29, 29, 0.75); backdrop-filter: blur(8px); /* frosted glass */ -webkit-backdrop-filter: blur(8px); color: #c3c3c3; border: 1px solid rgba(255, 255, 255, 0.08); cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); opacity: 0; pointer-events: none; transition: opacity 0.3s ease, transform 0.2s ease, background 0.3s ease; z-index: 999; }
+
+#backToTop:hover { background: rgba(29, 29, 29, 0.9); transform: translateY(-2px); }
+
+#progressRing { position: absolute; width: 46px; height: 46px; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-90deg); transform-origin: center center; pointer-events: none; }
+
+/* The ring itself */
+#backToTop circle { fill: none; stroke: #ff8800; /* UTK orange */ stroke-width: 4; stroke-linecap: round; stroke-dasharray: 126; stroke-dashoffset: 126; transition: stroke-dashoffset 0.1s linear; }
+
+#arrowIcon { width: 64px; height: 64px; z-index: 2; pointer-events: none; }
+
+/* --- Directions layout --- */
+.directions-block { display: flex; gap: 2rem; margin-bottom: 3rem; }
+
+.directions-text { flex: 1 1 55%; }
+
+.directions-map { flex: 1 1 45%; min-height: 300px; }
+
+/* Mobile stacking */
+@media (max-width: 800px) { .directions-block { flex-direction: column; } }
+/* --- Map buttons --- */
+.map-buttons { display: flex; gap: 1rem; justify-content: center; margin: 1rem 0 1.5rem; flex-wrap: wrap; }
+
+.map-button { display: flex; align-items: center; gap: 0.5rem; background: #ff8200; /* UTK Orange */ padding: 0.6rem 1rem; border-radius: 8px; border: 1px solid rgba(0, 0, 0, 0.15); color: #ffffff; text-decoration: none; font-weight: 600; transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; }
+
+.map-button:hover { background: #ffa64d; /* lighter UTK orange */ transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); }
+
+.map-button img { height: 20px; width: auto; }
+
+/* --- Registration Notice Box --- */
+.notice-box { background: #fff4e6; /* soft UTK orange tint */ border-left: 5px solid #ff8200; /* UTK orange accent */ padding: 1.25rem 1.5rem; margin: 1.5rem 0 2rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); }
+
+.notice-box h3 { color: #ff8200; margin-top: 0; margin-bottom: 0.75rem; }
+
+.notice-box p { margin: 0.5rem 0; line-height: 1.55; }
+
+/* --- Registration Button --- */
+.notice-button-wrapper { margin-top: 1rem; text-align: center; }
+
+.notice-button { display: inline-block; background: #ff8200; /* UTK orange */ color: #fff; padding: 0.6rem 1.2rem; border-radius: 8px; font-weight: 600; text-decoration: none; transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; }
+
+.notice-button:hover { background: #ffa64d; /* lighter UTK orange */ transform: translateY(-2px); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); }
+
+/* --- Compact Registration Banner --- */
+.notice-banner { background: #ff8200; /* UTK orange */ color: #fff; padding: 0.75rem 1rem; border-radius: 6px; text-align: center; font-weight: 600; line-height: 1.45; margin: 1rem 0 1.5rem; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); }
+
+.notice-banner strong { color: #fff; }
+
+.notice-banner:hover { background: #ffa64d; /* lighter UTK orange */ }
+
+/* ========================================================================== Global Card Styles (From Resources) ========================================================================== */
+.section-card { background: #fafbfd; border: 1px solid #e8ecf3; border-radius: 14px; padding: 26px 24px; margin: 32px 0; box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04); }
+
+.section-card h2 { font-size: 1.3rem; color: #1d2a56; margin-top: 0; margin-bottom: 10px; font-weight: 600; display: flex; align-items: center; gap: 10px; }
+
+.section-card p { font-size: 0.95rem; color: #475467; line-height: 1.5; }
+
+.video-frame { width: 100%; aspect-ratio: 16/9; border-radius: 10px; overflow: hidden; margin-top: 15px; }
+
+.header-icon { width: 22px; height: 22px; flex-shrink: 0; }
+
+.book-card { background: #ffffff; border: 1px solid #e8ecf3; border-radius: 10px; padding: 16px 18px; margin: 18px 0; box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04); }
+
+/* ========================================================================== Combined Feedback & Quotes Layout (50/50 Split) ========================================================================== */
+.combined-feedback-section { max-width: 1200px; margin: 3rem auto; padding: 0 1rem; display: grid; /* 1fr 1fr creates a perfect 50/50 split between Feedback and Quotes */ grid-template-columns: 1fr 1fr; gap: 3rem; }
+
+/* Left Column: Vertical Stack (Feedback) */
+.feedback-column { display: flex; flex-direction: column; gap: 1.5rem; }
+
+.feedback-box { background-color: #f4f7fb; /* Soft icy blue background */ border-left: 6px solid #1d2a56; /* The deep blue vertical bar */ border-radius: 4px; padding: 1.25rem 1.5rem; margin: 0; box-sizing: border-box; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03); }
+
+.feedback-box h2 { font-size: 1.2rem; color: #1d2a56; margin-top: -.3rem; margin-bottom: 0.25rem; font-weight: 600; }
+
+.feedback-box p { font-size: 0.95rem; color: #333; line-height: 1.5; margin: 0; }
+
+/* Right Column: 2x3 Grid (Quotes) */
+.quotes-grid-side-by-side { display: grid; grid-template-columns: repeat(2, 1fr); /* 2 equal columns inside the right half */ gap: 1.5rem; /* Forces space between rows and columns */ }
+
+/* Fix for the sticking quotes */
+.quotes-grid-side-by-side .notice-box { margin: 0 !important; /* The !important tag blocks your theme from pulling them together */ height: 100%; display: flex; align-items: center; padding: 1rem 1.5rem; box-sizing: border-box; /* Prevents padding from breaking the width */ }
+
+/* ========================================================================== Responsive Scaling (Mobile & Tablet) ========================================================================== */
+/* On tablets and smaller screens, stack the two main halves vertically */
+@media (max-width: 992px) { .combined-feedback-section { grid-template-columns: 1fr; }
+  /* The Feedback section will naturally stack 1x4 here because of flexbox */ }
+/* On mobile phones, keep quotes 2x3 but shrink them slightly to fit the screen */
+@media (max-width: 576px) { .quotes-grid-side-by-side { gap: 1rem; /* Tighter gaps for smaller screens */ }
+  .quotes-grid-side-by-side .notice-box { padding: 0.75rem 1rem; /* Smaller padding */ font-size: 0.9rem; /* Shrinks the text slightly so it doesn't overflow */ } }
