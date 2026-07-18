@@ -23,7 +23,7 @@ permalink: /summary/
 <section class="map-section">
   <h2 class="section-title">Global Participation</h2>
   <div style="position: relative; max-width: 800px; margin: 0 auto;">
-    <img src="/assets/mlstem2026_map.png" alt="World map of participants" style="width: 100%; height: auto; border-radius: 8px;">
+    <img src="{{ '/assets/mlstem2026_map.png' | relative_url }}" alt="World map of participants" style="width: 100%; height: auto; border-radius: 8px;">
   </div>
 </section>
 
@@ -113,7 +113,7 @@ permalink: /summary/
   <div class="main-image-viewer" style="position: relative; max-width: 800px; margin: 0 auto 15px auto; display: flex; align-items: center; justify-content: center; background: #1d1d1d; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">    
     <!-- Floating Navigation Arrows -->
     <button class="nav-arrow" onclick="prevImage()" style="position: absolute; left: 10px; z-index: 10; background: rgba(0,0,0,0.6); color: white; border: none; padding: 12px 18px; font-size: 1.5rem; cursor: pointer; border-radius: 4px; transition: background 0.2s;">&#10094;</button>    
-    <img id="main-gallery-img" src="/assets/photos/photo01.jpg" alt="Main Event Image" style="width: 100%; max-height: 550px; object-fit: contain; border: 1px solid #e8ecf3;">     
+    <img id="main-gallery-img" src="{{ '/assets/photos/photo01.jpg' | relative_url }}" alt="Main Event Image" style="width: 100%; max-height: 550px; object-fit: contain; border: 1px solid #e8ecf3;">     
     <button class="nav-arrow" onclick="nextImage()" style="position: absolute; right: 10px; z-index: 10; background: rgba(0,0,0,0.6); color: white; border: none; padding: 12px 18px; font-size: 1.5rem; cursor: pointer; border-radius: 4px; transition: background 0.2s;">&#10095;</button>
 
   </div>
@@ -130,7 +130,7 @@ permalink: /summary/
   const images = [];
   for (let i = 1; i <= 21; i++) {
     const numStr = i.toString().padStart(2, '0');
-    images.push(`/assets/photos/photo${numStr}.jpg`);
+    images.push("{{ site.baseurl | slugify }}/assets/photos/photo" + numStr + ".jpg");
   }
   
   let currentIndex = 0;
