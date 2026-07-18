@@ -130,7 +130,8 @@ permalink: /summary/
   const images = [];
   for (let i = 1; i <= 21; i++) {
     const numStr = i.toString().padStart(2, '0');
-    images.push("{{ site.baseurl | slugify }}/assets/photos/photo" + numStr + ".jpg");
+    // FIXED: Using relative_url so Jekyll perfectly maps the base path!
+    images.push("{{ '/assets/photos/photo' | relative_url }}" + numStr + ".jpg");
   }
   
   let currentIndex = 0;
@@ -161,12 +162,12 @@ permalink: /summary/
       thumbs.push(img);
     });
     
-    // FIX: Pass 'false' so it doesn't auto-scroll the page on initial load!
+    // Pass 'false' so it doesn't auto-scroll the page on initial load
     updateGallery(false); 
   }
 
   // 3. Update the main image and active thumbnail styling
-  function updateGallery(shouldScroll = true) { // FIX: Added a check for scrolling
+  function updateGallery(shouldScroll = true) { 
     mainImage.src = images[currentIndex];
     
     thumbs.forEach((thumb, idx) => {
@@ -174,7 +175,7 @@ permalink: /summary/
       thumb.style.borderColor = (idx === currentIndex) ? "#ff8200" : "transparent"; 
     });
     
-    // FIX: Only scroll if the user actively clicked a button
+    // Only scroll if the user actively clicked a button
     if (shouldScroll) {
       thumbs[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
     }
@@ -183,7 +184,7 @@ permalink: /summary/
   // 4. Navigation Controls
   function changeImage(index) {
     currentIndex = index;
-    updateGallery(); // Defaults to true, so it will scroll
+    updateGallery(); 
   }
 
   function prevImage() {
