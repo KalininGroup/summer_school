@@ -418,15 +418,15 @@ ul.grid .resource-block { background: #f0f0f0; }
 
 .feedback-box { background-color: #f4f7fb; /* Soft icy blue background */ border-left: 6px solid #1d2a56; /* The deep blue vertical bar */ border-radius: 4px; padding: 1.25rem 1.5rem; margin: 0; box-sizing: border-box; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03); }
 
-.feedback-box h2 { font-size: 1.2rem; color: #1d2a56; margin-top: -.3rem; margin-bottom: 0.25rem; font-weight: 600; }
+.feedback-box h2 { font-size: 1.5rem; color: #1d2a56; margin-top: -.3rem; margin-bottom: 0.25rem; font-weight: 600; }
 
 .feedback-box p { font-size: 0.95rem; color: #333; line-height: 1.5; margin: 0; }
 
 /* Right Column: 2x3 Grid (Quotes) */
-.quotes-grid-side-by-side { display: grid; grid-template-columns: repeat(2, 1fr); /* 2 equal columns inside the right half */ gap: 1.5rem; /* Forces space between rows and columns */ }
+.quotes-grid-side-by-side { display: grid; grid-template-columns: repeat(1, 1fr); gap: 1rem; }
 
 /* Fix for the sticking quotes */
-.quotes-grid-side-by-side .notice-box { margin: 0 !important; /* The !important tag blocks your theme from pulling them together */ height: 100%; display: flex; align-items: center; padding: 1rem 1.5rem; box-sizing: border-box; /* Prevents padding from breaking the width */ }
+.quotes-grid-side-by-side .notice-box { margin: 0 !important; /* The !important tag blocks your theme from pulling them together */ height: 100%; display: flex; align-items: center; padding: 1rem 1rem; box-sizing: border-box; /* Prevents padding from breaking the width */ }
 
 /* ========================================================================== Responsive Scaling (Mobile & Tablet) ========================================================================== */
 /* On tablets and smaller screens, stack the two main halves vertically */
